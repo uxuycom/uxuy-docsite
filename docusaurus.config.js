@@ -9,8 +9,8 @@ const config = {
   title: "UXUY Docs",
   tagline: "Follow Smart Money",
   favicon: "img/favicon.ico",
-  trailingSlash: false,
-  noIndex: true,
+  trailingSlash: true,
+  noIndex: false,
 
   // Set the production url of your site here
   url: "https://doc.uxuy.com",
@@ -43,14 +43,14 @@ const config = {
           routeBasePath: "/",
           sidebarPath: require.resolve("./sidebars.js"),
           editUrl:
-            "https://github.com/uxuycom/uxuy-docsite",
+            "https://github.com/uxuycom/uxuy-docsite/blob/main",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/uxuycom/uxuy-docsite",
+            "https://github.com/uxuycom/uxuy-docsite/blob/main",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
