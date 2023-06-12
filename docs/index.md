@@ -42,3 +42,5 @@ Please visit our [Swap Page](https://uxuy.com/swap) and follow the [UXUY Swap Us
 We welcome you to join our community where you can stay up-to-date with the latest updates and developments. Our team will be happy to assist you 24/7. 
 
 Don't miss out on the opportunity to connect with other like-minded individuals and be part of the growing community. Follow us on our official social media channels below.
+
+Telegram: [https://t.me/uxuycom](https://t.me/uxuycom)
