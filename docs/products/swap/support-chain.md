@@ -5,27 +5,70 @@ sidebar_label: 'Supported Chain, DEXs, and Bridges'
 # Supportted Chain, DEXs, and Bridges
 > We are dedicated to continuously adding in new liquidity providers on all blockchain networks to ensure the best possible trading route for our users.
 
-## Supported Chains, DEXs
+## Supported Chains
 
-| Supported Chain | Supported DEXs                      |
-|-----------------|:------------------------------------|
-| Ethereum        | 0x, 1inch, UniSwapV3, UniSwapV2     |
-| Tron            | JustSwap, SunSwap                    |
-| BNB Chain       | 1inch, SushiSwap, PancakeSwap         |
-| Arbitrum        | 1inch, UniSwapV3, SushiSwap           |
-| Polygon         | 1inch, UniSwapV3, SushiSwap QuickSwap |
-| Optimism        | 1inch, UniSwapV3                     |
-| Avalanche       | 1inch, SushiSwap                     |
-| Fantom          | 1inch, SushiSwap                     |
+| Supported Chains    |
+|-------------------|
+| Ethereum        |
+| BNB Chain       |
+| Arbitrum        |
+| Polygon         |
+| Optimism        |
+| Avalanche       |
+| Fantom          |
+| Tron            |
+
+## Supported DEXs
+
+| Supported DEXs    |
+|-------------------|
+| 1inch             |
+| Curve             |
+| UniswapV2         |
+| UniswapV3         |
+| PancakeSwap       |
+| SushiSwap         |
+| sunswap           |
+| BiSwap            |
+| QuickSwap         |
+| Trader Joe Dex    |
+| SpookySwap        |
+| Frax Swap         |
+| Arbitrum Exchange |
+| MDEX              |
+| BabyDogeSwap      |
+| ShibaSwap         |
+| Dfyn Network      |
+| W3swap            |
+| BabySwap          |
+| SpiritSwap        |
+| BakerySwap        |
+| KnightSwap        |
+| izumi             |
+| Swapr             |
+| Honeyswap         |
+| WigoSwap          |
+| RadioShack        |
+| BSCSwap           |
+| OreoSwap          |
+| ApeSwap           |
+| Antfarm Fiance    |
+| HyperJump         |
+| JetSwap           |
+| JulSwap           |
+| KyotoSwap         |
+| Pangolin          |
+| Polycat           |
+| SoulSwap          |
+| Swapsicle         |
+| Zyberswap V3      |
 
 ## Supported Bridges
 
-| Supported Chain | Supported Bridges                      |
-|-----------------|:------------------------------------|
-| Ethereum        | cBridge, Connext, Multichaiin, XY Finance    |
-| BNB Chain       | cBridge, Connext, Multichaiin, XY Finance    |
-| Arbitrum        | cBridge, Connext, Multichaiin, XY Finance    |
-| Polygon         | cBridge, Connext, Multichaiin, XY Finance    |
-| Optimism        | cBridge, Connext, Multichaiin, XY Finance    |
-| Avalanche       | cBridge, Connext, Multichaiin, XY Finance    |
-| Fantom          | cBridge, Connext, Multichaiin, XY Finance    |
+| Supported Bridges                  |
+|------------------------------------|
+| cBridge   |
+| Connext   |
+| Multichain |
+| XY Finance  |
+| SWFT Blockchain    |
