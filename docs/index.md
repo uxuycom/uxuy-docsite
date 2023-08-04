@@ -31,11 +31,11 @@ We prioritize security over everything else and our smart contract is externally
 
 Follow the [Swap API](./developers/swap-api.md) documentation to integrate with our protocol.
 
-## Swap Now on Website
+## Swap Now 
 
 screenshot here
 
-Please visit our [Swap Page](https://uxuy.com/swap) and follow the [UXUY Swap User Guide](./products/swap/guide.md).
+Please visit our [Website](https://uxuy.com/).
 
 ## Join our Community
 
