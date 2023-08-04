@@ -5,6 +5,17 @@
  */
 
 /* You can override the default Infima variables here. */
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url('../../static/font/Poppins-Regular.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url('../../static/font/Poppins-Bold.woff2') format('woff2');
+}
+
 :root {
   --ifm-color-primary: #FF7400;
   --ifm-color-primary-dark: #EB6B00;
@@ -15,9 +26,17 @@
   --ifm-color-primary-lightest: #FFBF89;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-heading-color: #FFFFFF;
+  --ifm-font-family-base: 'Poppins-Regular';
+  --ifm-heading-font-family: 'Poppins-Bold';
+  --ifm-font-family-monospace: 'Poppins-Regular';
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
+html[data-theme='dark'] {
+  --ifm-background-color: #010101 !important;
+}
+
 [data-theme="dark"] {
   --ifm-color-primary: #FF7400;
   --ifm-color-primary-dark: #EB6B00;
@@ -30,4 +49,93 @@
   --ifm-navbar-background-color: #21212a !important;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   /*--ifm-font-size-base: 120% !important; */
+}
+
+.navbar__brand{
+  margin-right: 80px;
+}
+
+.navbar {
+  background-color: #0F0F13 !important;
+  border-bottom: 1px solid #40404A !important;
+}
+
+@media (max-width: 996px) {
+  .navbar__toggle {
+    display: inherit;
+    position: absolute;
+    right: 10px;
+  }
+}
+
+.navbar__search{
+  display: none;
+}
+
+@media (min-width: 997px){
+  .navbar__search{
+    display: block;
+  }
+  .container{
+    padding: 0 30px;
+  }
+}
+
+.footer--dark {
+  --ifm-footer-background-color: #0F0F13 !important;
+}
+
+.card{
+  border: none !important;
+  background-color: #1E1E24 !important;
+}
+
+.menu__link--active{
+  background-color: #1E1E24 !important;
+}
+
+.pagination-nav__link{
+  border: none !important;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  padding-bottom: 80px;
+}
+
+.theme-doc-footer-edit-meta-row {
+  display: none !important;
+}
+
+.navbar__search-input{
+  background-color: #FFFFFF !important;
+}
+
+table thead tr{
+  border-bottom: none !important;
+}
+
+.footer__title{
+  color: #40404A !important;
+  font-size: 12px;
+}
+
+.footer__link-item{
+  font-size: 14px;
+}
+
+.footer__bottom{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.footer__copyright{
+  font-size: 12px !important;
+  color: #5B5B65 !important;
+}
+
+.footerLogoLink_node_modules-\@docusaurus-theme-classic-lib-theme-Footer-Logo-styles-module{
+  opacity: 1 !important;
+}
+
+.docSidebarContainer_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-Sidebar-styles-module{
+  border-right: 1px solid #40404A !important;
 }

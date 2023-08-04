@@ -1,6 +1,6 @@
 ---
-sidebar_position: 1
-sidebar_label: 'Supported Chain, DEXs, and Bridges'
+sidebar_position: 2
+sidebar_label: 'Supported Chain, Protocol'
 ---
 # Supportted Chain, DEXs, and Bridges
 > We are dedicated to continuously adding in new liquidity providers on all blockchain networks to ensure the best possible trading route for our users.

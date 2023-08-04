@@ -1,7 +1,7 @@
 ---
-sidebar_label: 'BRAND & LOGO'
-sidebar_position: 5
+sidebar_position: 1
 ---
+
 # Brand & Logo
 > Guidlines and downloadable assets like the UXUY logo
 

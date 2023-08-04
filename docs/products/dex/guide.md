@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
-sidebar_label: 'Swap User Guide'
+sidebar_position: 1
+sidebar_label: 'DEX Guide'
 ---
-# Swap User Guide
+# DEX User Guide
 :::tip
 
 Our official website address is [**https://uxuy.com/swap**](https://uxuy/swap)
