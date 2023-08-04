@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuxuy_doc_site=self.webpackChunkuxuy_doc_site||[]).push([[4128],{1993:e=>{e.exports=JSON.parse('{"permalink":"/uxuycom/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
