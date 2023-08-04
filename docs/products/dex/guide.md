@@ -46,7 +46,7 @@ screenshot here
 
 screenshot here
 
-## Step 4: Receive your swapped tokens and review the transaction
+### Step 4: Receive your swapped tokens and review the transaction
 
 - Once the swap request submitted successfully, you will be able to view the transaction detail in blockchain explorer by clicking on the link provided on the confirmation dialog. Meanwhile, you can add the destination token to your wallet if you haven't done so before. UXUY will keep monitoring the latest status of your transaction on different blockchain and synchronize with the data for users reference in real time. You will be notified of whether or not the transaction is successfully executed on UXUY Swap page and in your wallet transaction history..
 
