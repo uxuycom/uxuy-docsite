@@ -90,6 +90,16 @@ const config = {
           href: 'https://uxuy.com',
           width: 96,
         },
+        links: [
+          // {
+          //   title: "Products",
+          //   items: [
+          //     { label: "UXUY Exchange", to: "https://uxuy.com/exchange", },
+          //     { label: "UXUY Wallet", to: "https://uxuy.com/wallet", },
+          //     { label: "UXUY Protocol", to: "https://uxuy.com/protocol", },
+          //   ],
+          // }
+        ],
         copyright: `Copyright © ${new Date().getFullYear()} UXUY All Rights Reserved.`,
       },
       colorMode: {
