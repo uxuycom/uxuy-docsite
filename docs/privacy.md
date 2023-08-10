@@ -92,10 +92,13 @@ Individuals, as Data Subjects, have certain rights under the Cayman DPA, which i
 
 1. Right to Access: The right to obtain confirmation as to whether personal data concerning them is being processed, and if so, to access that personal data.
 2. Right to Rectification: The right to request the correction of inaccurate personal data.
-3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was ollected.
-4. Right to Restriction of Processing: The right to request the restriction of processing under certain circumstances, such as when the accuracy of the personal data is contested.
-5. Right to Data Portability: The right to receive personal data in a structured, commonly used, and machine-readable format, and the right to transmit that data to another Data Controller.
-6. Right to Object: The right to object to the processing of personal data under certain circumstances, including processing based on legitimate interests or for direct marketing purposes.
+3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was collected. If would like to do so, you may follow these steps to delete your account within our App, which includes all your personal information & account profiles: 
+   - 3.1) Proceed to “Security” in your “Account Profile”, then click “Manage Account” 
+   - 3.2) Under “Manage Account”, click “Delete Account” 
+If you were unable to complete the above steps, please contact our team contact@uxuy.com for further assistance.
+1. Right to Restriction of Processing: The right to request the restriction of processing under certain circumstances, such as when the accuracy of the personal data is contested.
+2. Right to Data Portability: The right to receive personal data in a structured, commonly used, and machine-readable format, and the right to transmit that data to another Data Controller.
+3. Right to Object: The right to object to the processing of personal data under certain circumstances, including processing based on legitimate interests or for direct marketing purposes.
 
 ### Data Security
 
