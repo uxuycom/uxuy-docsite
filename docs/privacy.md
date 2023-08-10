@@ -92,7 +92,7 @@ Individuals, as Data Subjects, have certain rights under the Cayman DPA, which i
 
 1. Right to Access: The right to obtain confirmation as to whether personal data concerning them is being processed, and if so, to access that personal data.
 2. Right to Rectification: The right to request the correction of inaccurate personal data.
-3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was collected. If would like to do so, you may follow these steps to delete your account within our App, which includes all your personal information & account profiles: 
+3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was collected. If you would like to do so, you may follow these steps to delete your account within our App, which includes all your personal information & account profiles: 
    - 3.1) Proceed to “Security” in your “Account Profile”, then click “Manage Account” 
    - 3.2) Under “Manage Account”, click “Delete Account” 
 If you were unable to complete the above steps, please contact our team contact@uxuy.com for further assistance.
