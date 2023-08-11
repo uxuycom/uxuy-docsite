@@ -29,4 +29,4 @@ You can use UXUY's Brand Assets when you are:
 
 ## Logo
 ![branding logo](/img/branding-logo.png)
-<a target="_blank" href={require('/assets/uxuy-logos.zip').default} download="uxuy-logo.zip"> Download branding assets </a>
+<a target="_blank" href="pathname:///assets/uxuy-logos.zip" download="uxuy-logo.zip"> Download branding assets </a>
