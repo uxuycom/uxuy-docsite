@@ -55,7 +55,16 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-        sitemap: false,
+        gtag: {
+          trackingID: 'G-QS19J7PT2B',
+          anonymizeIP: true,
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.5,
+          ignorePatterns: ['/tags/**'],
+          filename: 'sitemap.xml',
+        },
       }),
     ],
   ],
@@ -102,6 +111,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} UXUY All Rights Reserved.`,
       },
+      metadata: [{name: "keywords", content: "uxuy, dex, wallet, web3, crypto"}],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
