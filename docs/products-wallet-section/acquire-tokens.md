@@ -11,7 +11,7 @@ How to acquire tokens in the UXUY wallet: You can follow the tutorial below to d
 
 ### How to get UXUY receiving QR code
 
-![Alt text](/img/products-wallet-section/acquire-tokens-image.png)
+![Uxuy Wallet](/img/products-wallet-section/acquire-tokens-image.png)
 
 **Step 1:** &nbsp; Click on the `Receive` button.
 

@@ -17,7 +17,7 @@ Please verify the official UXUY website domain
 
 ### Create a new wallet
 
-![Alt text](/img/products-wallet-section/image.png)
+![Uxuy Wallet](/img/products-wallet-section/image.png)
 
 **Step 1:** &nbsp; Choose your account login & creation method. You can select email, Apple, Google, or other methods to create your UXUY wallet.
 
@@ -25,7 +25,7 @@ Please verify the official UXUY website domain
 
 **Step 3:** &nbsp; Safely backup your personal MPC shard units. You can back them up to your personal device or personal cloud storage. It's recommended to have multiple backup locations.
 
-![Alt text](/img/products-wallet-section/image-1.png)
+![Uxuy Wallet](/img/products-wallet-section/image-1.png)
 
 **Step 4:** &nbsp; Set your device password. You can choose your device password or create an app password to add an extra layer of security to your wallet.
 

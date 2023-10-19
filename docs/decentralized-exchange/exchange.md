@@ -1,5 +1,5 @@
 ---
-sidebar_label: "exchange"
+sidebar_label: "Exchange"
 sidebar_position: 2
 ---
 # Exchange
