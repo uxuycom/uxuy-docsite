@@ -2,7 +2,8 @@
 sidebar_label: "Brand & Logo"
 sidebar_position: 1
 ---
-;
+
+import CustomCard from '../../src/components/CustomCard'
 
 # Brand & Logo
 
