@@ -1,8 +1,10 @@
 ---
-sidebar_label: 'Privacy Policy'
-sidebar_position: 8
+sidebar_label: "Privacy Policy"
+sidebar_position: 12
 ---
+
 # UXUY Privacy Policy
+
 This Privacy Policy describes how UXUY (referred to in this Privacy Policy as "App," "Company," "Services," "We," "Us," or "Our,") collects information when you use the App (separately and collectively as the "Services"). It also explains how we use and disclose the information we collect from you, and your rights in relation to that information.
 
 By accessing, visiting or using the Services, you expressly consent to our collection, storage, use and disclosure of your information as described in this Privacy Policy. Please note that if you disagree with anything in this Privacy Policy, you must not use the Service.
@@ -33,10 +35,10 @@ We disclose your information to our employees, contractors, affiliates, distribu
 Response to Subpoenas or Court Orders or to Protect Rights and to Comply with Our Policies.
 To the extent permitted by law, we will disclose your information to government authorities or third parties if:
 
- 1. required to do so by law, or in response to a subpoena or court order or similar request from judicial authority;
-we believe in our sole discretion that disclosure is reasonably necessary to protect against fraud, to protect the property or other rights of us, or  
+1.  required to do so by law, or in response to a subpoena or court order or similar request from judicial authority;
+    we believe in our sole discretion that disclosure is reasonably necessary to protect against fraud, to protect the property or other rights of us, or
 
- 2. other users, third parties or the public authorities or we believe that you have abused the Services by using it to attack other systems or to gain unauthorized access to any other system, to engage in spamming or otherwise to violate applicable laws.
+2.  other users, third parties or the public authorities or we believe that you have abused the Services by using it to attack other systems or to gain unauthorized access to any other system, to engage in spamming or otherwise to violate applicable laws.
 
 You should be aware that, following disclosure to any third party, your information may be accessible by others to the extent permitted or required by applicable law, unless specific restrictions have been implemented.
 
@@ -92,13 +94,13 @@ Individuals, as Data Subjects, have certain rights under the Cayman DPA, which i
 
 1. Right to Access: The right to obtain confirmation as to whether personal data concerning them is being processed, and if so, to access that personal data.
 2. Right to Rectification: The right to request the correction of inaccurate personal data.
-3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was collected. If you would like to do so, you may follow these steps to delete your account within our App, which includes all your personal information & account profiles: 
-   - 3.1) Proceed to “Security” in your “Account Profile”, then click “Manage Account” 
-   - 3.2) Under “Manage Account”, click “Delete Account” 
-If you were unable to complete the above steps, please contact our team contact@uxuy.com for further assistance.
-1. Right to Restriction of Processing: The right to request the restriction of processing under certain circumstances, such as when the accuracy of the personal data is contested.
-2. Right to Data Portability: The right to receive personal data in a structured, commonly used, and machine-readable format, and the right to transmit that data to another Data Controller.
-3. Right to Object: The right to object to the processing of personal data under certain circumstances, including processing based on legitimate interests or for direct marketing purposes.
+3. Right to Erasure: The right to request the deletion of personal data under specific circumstances, such as when the data is no longer necessary for the purposes for which it was collected. If you would like to do so, you may follow these steps to delete your account within our App, which includes all your personal information & account profiles:
+   - 3.1) Proceed to “Security” in your “Account Profile”, then click “Manage Account”
+   - 3.2) Under “Manage Account”, click “Delete Account”
+     If you were unable to complete the above steps, please contact our team contact@uxuy.com for further assistance.
+4. Right to Restriction of Processing: The right to request the restriction of processing under certain circumstances, such as when the accuracy of the personal data is contested.
+5. Right to Data Portability: The right to receive personal data in a structured, commonly used, and machine-readable format, and the right to transmit that data to another Data Controller.
+6. Right to Object: The right to object to the processing of personal data under certain circumstances, including processing based on legitimate interests or for direct marketing purposes.
 
 ### Data Security
 
@@ -121,6 +123,7 @@ Personal data will be retained for as long as necessary to fulfil the purposes f
 UXUY reserves the right to update this Privacy Policy from time to time. Any changes will be posted on our website, and the effective date will be updated accordingly.
 
 ## Disclaimers
+
 TO THE EXTENT PERMITTED BY APPLICABLE LAW, ALL MATERIALS OR ITEMS PROVIDED THROUGH THE SERVICE ARE PROVIDED "AS IS" AND "AS AVAILABLE," WITHOUT WARRANTY OR CONDITIONS OF ANY KIND.
 TO THE EXTENT PERMITTED BY APPLICABLE LAW, WE MAKE NO WARRANTIES OR REPRESENTATIONS ABOUT THE ACCURACY, RELIABILITY, TIMELINESS OR COMPLETENESS OF THE SERVICE’S CONTENT, THE CONTENT OF ANY SITE LINKED TO THE SERVICE, INFORMATION OR ANY OTHER ITEMS OR MATERIALS ON THE SERVICE OR LINKED TO BY THE SERVICE.
 
@@ -133,6 +136,7 @@ YOU AGREE THAT YOUR USE OF THE SERVICE WILL BE AT YOUR SOLE RISK. TO THE FULLEST
 How to Contact Us.
 
 If you have any questions about this Privacy Policy, please feel free to contact us as follows:
+
 - By email: legal@uxuy.com
 - Name: UXUY Legal
 - Legal Address: Willow House, Cricket Square, #24-02 Grand Cayman, KY1-1001, Cayman Islands.

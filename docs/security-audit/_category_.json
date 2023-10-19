@@ -1,0 +1,10 @@
+{
+  "label": "Security & Audit",
+  "position": 10,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "Security is very important for us."
+  }
+}

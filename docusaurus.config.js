@@ -68,7 +68,7 @@ const config = {
       }),
     ],
   ],
-  
+
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
@@ -111,7 +111,7 @@ const config = {
         ],
         copyright: `Copyright © ${new Date().getFullYear()} UXUY All Rights Reserved.`,
       },
-      metadata: [{name: "keywords", content: "uxuy, dex, wallet, web3, crypto"}],
+      metadata: [{ name: "keywords", content: "uxuy, dex, wallet, web3, crypto" }],
       colorMode: {
         defaultMode: "dark",
         disableSwitch: true,
