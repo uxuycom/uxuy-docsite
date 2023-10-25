@@ -1,21 +1,22 @@
 ---
 sidebar_position: 1
-sidebar_label: "Audit Report"
+sidebar_label: "Smart Contract Audit Report"
 ---
 
 import CustomCard from '../../src/components/CustomCard'
 
-# Audit Report
+# Smart Contract Audit Report
 
 ### Executive Summary
 
-This report presents the findings of a security audit conducted on the smart contract for UXUY, UXUY aims to develop a decentralized exchange (DEX) wallet with multi-party computation (MPC) technology, which allows for secure private key management and transaction signing without exposing the private key to any single participant. The smart contract audit was conducted to ensure the security and integrity of the project's code. The audit was conducted by SlowMist on 8 May, 2023.
+
+This report presents the findings of a security audit conducted on the smart contract for [UXUY](https://uxuy.com), [UXUY](https://uxuy.com) aims to develop a [decentralized exchange (DEX)](https://en.wikipedia.org/wiki/Decentralized_finance#Decentralized_exchanges) wallet with [multi-party computation (MPC)](https://en.wikipedia.org/wiki/Secure_multi-party_computation) technology, which allows for secure private key management and transaction signing without exposing the private key to any single participant. The smart contract audit was conducted to ensure the security and integrity of the project's code. The audit was conducted by [SlowMist](https://slowmist.com) on 8 May, 2023.
 
 Overall, the smart contract was found to be well-designed and implemented, with no major security vulnerabilities identified. However, the audit did identify several minor issues and recommendations for improvement, which are detailed in the following sections.
 
 ### Scope
 
-The scope of the audit covered the smart contract code for UXUY, as well as any relevant dependencies and libraries.
+The scope of the audit covered the smart contract code for [UXUY](https://uxuy.com), as well as any relevant dependencies and libraries.
 
 ### Methodology
 
@@ -23,10 +24,11 @@ The audit was conducted using a combination of manual code review and automated 
 
 ### Conclusion
 
-Overall, the smart contract for UXUY was found to be well-designed and implemented, with no major security vulnerabilities identified. The minor issues and recommendations identified during the audit can be easily addressed to further improve the security and functionality of the smart contract.
+
+Overall, the smart contract for [UXUY](https://uxuy.com) was found to be well-designed and implemented, with no major security vulnerabilities identified. The minor issues and recommendations identified during the audit can be easily addressed to further improve the security and functionality of the smart contract.
 
 ### Attachments
 
 More Details in the Reports
 
-<CustomCard title="More Details"  description="More Details in the Reports "  link="Download SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf" />
+<CustomCard title="SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  description="DownLoad SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  link="pathname:///assets/SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf" />
