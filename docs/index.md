@@ -27,9 +27,6 @@ UXUY provides a suite of products, including our customisable widget that can be
 
 We prioritize security over everything else and our smart contract is externally and independently audited by CertiK and other smart contract security firms to ensure every transaction is safe and secure.
 
-## Integrate with Our Protocol API
-
-Follow the [Swap API](./developers/swap-api.md) documentation to integrate with our protocol.
 
 ## Swap Now 
 
