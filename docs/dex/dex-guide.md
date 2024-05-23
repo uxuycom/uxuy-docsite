@@ -5,7 +5,17 @@ sidebar_position: 1
 
 # DEX Guide
 
+:::tip
+
+Our official website address is [**https://uxuy.com/swap**](https://uxuy/swap)
+
+Beware of phishing scams and fake websites that may attempt to steal your personal information or assets. To ensure your safety and security, always double-check the website address and verify that you are on the correct page before entering any sensitive information or performing any transactions.
+
+:::
+
 At UXUY, you can trade any cryptocurrency without the hassle of creating centralized exchange accounts, undergoing KYC identity verification, and other cumbersome procedures.
+
+
 
 ## About UXUY DEX
 

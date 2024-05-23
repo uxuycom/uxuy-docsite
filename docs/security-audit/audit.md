@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-sidebar_label: "Smart Contract Audit Report"
+sidebar_label: " Smart Contract Audit Report"
 ---
 
 import CustomCard from '../../src/components/CustomCard'
