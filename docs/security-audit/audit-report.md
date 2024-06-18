@@ -31,4 +31,4 @@ Overall, the smart contract for [UXUY](https://uxuy.com) was found to be well-de
 
 More Details in the Reports
 
-<CustomCard title="SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  description="DownLoad SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  link="pathname:///assets/SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf" />
+<CustomCard title="SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  description="DownLoad SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf"  link="/assets/SlowMist-Audit-Report-UXUY-Protocol-Phase2.pdf" />
