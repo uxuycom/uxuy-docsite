@@ -1,7 +1,3 @@
----
-sidebar_label: "AA Smart Wallet"
-sidebar_position: 4
----
 
 # AA Smart Wallet
 
