@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Terms of Service"
-sidebar_position: 11
+sidebar_position: 12
 ---
 
 # Terms of Service
