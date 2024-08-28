@@ -1,5 +1,5 @@
 ---
-sidebar_label: "UXUY Connect"
+sidebar_label: "Introduction"
 sidebar_position: 1
 ---
 
