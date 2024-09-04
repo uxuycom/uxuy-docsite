@@ -3,7 +3,7 @@ sidebar_label: "Introduction"
 sidebar_position: 1
 ---
 
-# UXUY Connect: The Future of Blockchain Applications
+# 🤝 UXUY Connect: The Future of Blockchain Applications
 
 ## Introduction
 

@@ -3,7 +3,7 @@ sidebar_label: "Docs"
 sidebar_position: 3
 ---
 
-# UXUY Connect Guide
+# 🧩 UXUY Connect Guide
 
 ## Overview
 

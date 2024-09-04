@@ -3,7 +3,7 @@ sidebar_label: "Quick Start"
 sidebar_position: 2
 ---
 
-# QuickStart
+# 🚀 QuickStart
 
 This guide will help you quickly integrate UXUY Telegram Wallet into your decentralized application (telegram miniapp).
 
