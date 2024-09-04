@@ -22,12 +22,7 @@ In your JavaScript file, import and initialize the UXUY SDK:
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
 
-const { ethereum } = new WalletTgSdk({
-    metaData: {
-        name: 'Your DApp Name',
-        icon: 'https://example.com/your-dapp-icon.png'
-    }
-});
+const { ethereum } = new WalletTgSdk();
 ```
 
 ## Step 3: Connect to UXUY Wallet
@@ -46,11 +41,12 @@ async function connectWallet() {
 }
 ```
 
-## Step 4: Get Chain ID
+## Step 4: Get Chain ID and Get Account
 
 Retrieve the current chain ID:
 
 ```javascript
+// Get the current chain ID
 async function getChainId() {
     try {
         const chainId = await ethereum.request({ method: 'eth_chainId' });
@@ -58,6 +54,17 @@ async function getChainId() {
         return chainId;
     } catch (error) {
         console.error('Failed to get chain ID:', error);
+    }
+}
+
+// Get the current address
+async function getAccounts() {
+    try {
+        const accounts = await ethereum.request({ method: 'eth_accounts' });
+        console.log('Current address:', accounts[0]);
+        return accounts[0];
+    } catch (error) {
+        console.error('Failed to get address:', error);
     }
 }
 ```
@@ -74,8 +81,8 @@ async function sendTransaction(to, value) {
             to: to,
             from: accounts[0],
             value: value, // Value in wei
-            gasPrice: '0x09184e72a000', // Customize as needed
-            gas: '0x5208', // 21000 gas limit
+            // gasPrice: '0x09184e72a000', // Customize as needed
+            // gas: '0x5208', // 21000 gas limit
         };
 
         const txHash = await ethereum.request({
@@ -102,6 +109,8 @@ ethereum.on('accountsChanged', (accounts) => {
 ethereum.on('chainChanged', (chainId) => {
     console.log('Network changed to:', chainId);
 });
+
+
 ```
 
 ## Example Usage
@@ -109,22 +118,69 @@ ethereum.on('chainChanged', (chainId) => {
 Here's a simple example of how to use these functions:
 
 ```javascript
-async function initializeWallet() {
-    const account = await connectWallet();
-    if (account) {
-        const chainId = await getChainId();
-        console.log(`Connected to account ${account} on chain ${chainId}`);
-        
-        // Example: Send a transaction
-        const txHash = await sendTransaction('0x1234567890123456789012345678901234567890', '0x1');
-        if (txHash) {
-            console.log(`Transaction sent: ${txHash}`);
-        }
-    }
-}
+import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
+const { ethereum } = new WalletTgSdk();
+let address = null;
+let chainId = null;
 
 // Call this function when your DApp initializes
-initializeWallet();
+async function initializeWallet() {
+    // Check if the wallet is already connected
+    if (!ethereum.isConnected()) {
+        await ethereum.request({ method: 'eth_requestAccounts' });
+    }
+
+    // Get the current account and chain ID
+    const accounts = await ethereum.request({ method: 'eth_accounts' });
+
+    address = accounts[0];
+    chainId = await ethereum.request({ method: 'eth_chainId' });
+
+    // Set up event listeners for account and chain changes
+    ethereum.removeAllListeners();
+    ethereum.on('accountsChanged', (accounts) => {
+        address = accounts[0];
+        console.log('Active account changed:', accounts[0]);
+    });
+    ethereum.on('chainChanged', (changedChainId) => {
+        chainId = changedChainId
+        console.log('Network changed to:', changedChainId);
+    });
+
+}
+
+
+async function sendTransaction(to, value) {
+
+    const transactionParameters = {
+        to: to,
+        from: address,
+        value: value, // Value in wei
+        // gasPrice: '0x09184e72a000', // Customize as needed
+        // gas: '0x5208', // 21000 gas limit
+    };
+
+    const txHash = await ethereum.request({
+        method: 'eth_sendTransaction',
+        params: [transactionParameters],
+    });
+    const hash = await sendTransaction(to, value);
+
+    const receipt = await ethereum.request({
+        method: 'eth_getTransactionReceipt',
+        params: [hash],
+    })
+
+    return receipt;
+
+}
+
+// Call this function to send a transaction 0.01 ether to the address 0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5
+
+sendTransaction("0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5", 0.001 * 10 ** 18);
+
+          
+
 ```
 
 ## Next Steps

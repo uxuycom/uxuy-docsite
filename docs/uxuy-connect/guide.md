@@ -8,7 +8,10 @@ This guide demonstrates how to integrate the UXUY Wallet into your decentralized
 
 - [UXUY Wallet on Telegram](https://t.me/UXUYbot)
 - [Connection Demo](https://t.me/uxuy_demo_miniapp_bot/demo)
+- [Connection Demo Repository](https://github.com/uxuycom/test-tg-dapp)
 - [UXUY SDK Repository](https://github.com/uxuycom/uxuy-docsite)
+- [Create a Telegram Bot](https://core.telegram.org/bots/tutorial#executing-commands)
+- [Create a Telegram MinApp](https://core.telegram.org/bots#replace-entire-websites)
 
 ## Installation
 
@@ -37,6 +40,14 @@ const { ethereum } = new WalletTgSdk({
 
 The UXUY SDK implements the Ethereum Provider API, allowing seamless integration with existing Ethereum-compatible DApps.
 
+### isConnected
+
+The `isConnected` method returns a boolean value indicating whether the wallet is connected or not.
+
+```typescript
+
+  ethereum.isConnected(): boolean
+```
 
 ### Request Method
 
