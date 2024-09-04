@@ -133,4 +133,4 @@ initializeWallet();
 - Add support for switching chains using `wallet_switchEthereumChain`
 - Implement signing methods for more advanced functionality
 
-For more detailed information, refer to the full [UXUY Wallet Integration Guide](link-to-full-guide).
+For more detailed information, refer to the full [UXUY Wallet Integration Guide](guide).
