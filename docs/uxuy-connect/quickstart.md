@@ -181,7 +181,7 @@ async function sendTransaction(to, value) {
 
 }
 
-// Call this function to send a transaction 0.01 ether to the address 0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5
+// Call this function to send a transaction 0.001 ether to the address 0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5
 
 sendTransaction("0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5", 0.001 * 10 ** 18);
 
