@@ -126,15 +126,16 @@ let chainId = null;
 // Call this function when your DApp initializes
 async function initializeWallet() {
     // Check if the wallet is already connected
-    if (!ethereum.isConnected()) {
+    let accounts = await ethereum.request({ method: 'eth_accounts' });
+    if (!accounts[0]) {
         await ethereum.request({ method: 'eth_requestAccounts' });
     }
 
     // Get the current account and chain ID
-    const accounts = await ethereum.request({ method: 'eth_accounts' });
-
-    address = accounts[0];
     chainId = await ethereum.request({ method: 'eth_chainId' });
+    accounts = await ethereum.request({ method: 'eth_accounts' });
+    address = accounts[0];
+  
 
     // Set up event listeners for account and chain changes
     ethereum.removeAllListeners();
