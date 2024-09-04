@@ -37,6 +37,7 @@ const { ethereum } = new WalletTgSdk({
 
 The UXUY SDK implements the Ethereum Provider API, allowing seamless integration with existing Ethereum-compatible DApps.
 
+
 ### Request Method
 
 The `request` method is used to make RPC requests to the connected wallet.
@@ -45,11 +46,20 @@ The `request` method is used to make RPC requests to the connected wallet.
 interface RequestArguments {
   id?: number | string;
   method: string;
-  params?: Array<unknown> | object;
+  params?: Array<unknown> ;
 }
 
-ethereum.request = (args: RequestArguments): Promise<any>
+interface ResponseError extends Error {
+  code: number;
+  message: string;
+  data?: unknown;
+}
+
+ethereum.request = (payload: RequestArguments): Promise<any> 
+
 ```
+
+
 
 For detailed information on JSON-RPC methods, refer to:
 - [MetaMask JSON-RPC API](https://docs.metamask.io/wallet/reference/json-rpc-api/)
@@ -60,6 +70,7 @@ For detailed information on JSON-RPC methods, refer to:
 #### eth_requestAccounts
 
 Connects to the wallet and returns the address of the connected wallet.
+
 
 ```javascript
 const accounts = await ethereum.request({ method: 'eth_requestAccounts' });
@@ -100,7 +111,11 @@ try {
 
 Sends a transaction to the connected wallet.
 
+For detailed usage, refer to:
+  - [transactions](https://ethereum.org/zh/developers/docs/transactions/)
+  
 ```javascript
+
 const accounts = await ethereum.request({ method: 'eth_accounts' });
 const transactionParameters = {
   nonce: '0x00',
@@ -135,9 +150,117 @@ For detailed usage, refer to:
 Example of `personal_sign`:
 
 ```javascript
-const signature = await ethereum.request({
+const  accounts = await ethereum.request({ method: 'eth_accounts' });
+const  chainId =  await ethereum.request({ method: 'eth_chainId' });
+
+const  signature = await ethereum.request({
   method: 'personal_sign',
-  params: ['Hello, UXUY!', '0x1234567890abcdef']
+  params: ['Hello, UXUY!', accounts[0]]
+});
+
+```
+
+Example of `eth_signTypedData_v4`:
+```javascript
+
+const  accounts = await ethereum.request({ method: 'eth_accounts' });
+const  chainId  =  await ethereum.request({ method: 'eth_chainId' });
+
+const  msgParams = {
+    "domain": {
+        "chainId": chainId,
+        "name": "Ether Mail",
+        "verifyingContract": "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC",
+        "version": "1"
+    },
+    "message": {
+        "contents": "Hello, Bob!",
+        "from": {
+            "name": "Cow",
+            "wallets": [
+                "0xCD2a3d9F938E13CD947Ec05AbC7FE734Df8DD826",
+                "0xDeaDbeefdEAdbeefdEadbEEFdeadbeEFdEaDbeeF"
+            ]
+        },
+        "to": [
+            {
+                "name": "Bob",
+                "wallets": [
+                    "0xbBbBBBBbbBBBbbbBbbBbbbbBBbBbbbbBbBbbBBbB",
+                    "0xB0BdaBea57B0BDABeA57b0bdABEA57b0BDabEa57",
+                    "0xB0B0b0b0b0b0B000000000000000000000000000"
+                ]
+            }
+        ],
+        "attachment": "0x"
+    },
+    "primaryType": "Mail",
+    "types": {
+        "EIP712Domain": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "version",
+                "type": "string"
+            },
+            {
+                "name": "chainId",
+                "type": "uint256"
+            },
+            {
+                "name": "verifyingContract",
+                "type": "address"
+            }
+        ],
+        "Group": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "members",
+                "type": "Person[]"
+            }
+        ],
+        "Mail": [
+            {
+                "name": "from",
+                "type": "Person"
+            },
+            {
+                "name": "to",
+                "type": "Person[]"
+            },
+            {
+                "name": "contents",
+                "type": "string"
+            },
+            {
+                "name": "attachment",
+                "type": "bytes"
+            }
+        ],
+        "Person": [
+            {
+                "name": "name",
+                "type": "string"
+            },
+            {
+                "name": "wallets",
+                "type": "address[]"
+            }
+        ]
+    }
+}
+
+const signatureV4 = await ethereum.request({
+  method: 'eth_signTypedData_v4',
+  params: [
+    accounts[0], 
+    JSON.stringify(msgParams)
+  ]
 });
 ```
 
