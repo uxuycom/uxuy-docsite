@@ -8,7 +8,7 @@ Import [UXUY SDK](https://github.com/uxuycom/uxuy-docsite) into your DApp to ena
 
 You can check the linking effect of UXUY wallet through the following resources.
 
-[UXUY Wallet on Telegram](`https://t.me/UXUYbot`)
+[UXUY Wallet on Telegram](https://t.me/UXUYbot)
 [Demo For Connection](https://t.me/uxuy_demo_miniapp_bot/demo)
 
 ---
