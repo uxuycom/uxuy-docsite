@@ -194,4 +194,4 @@ We welcome contributions to the UXUY SDK! Please see our [Contributing Guideline
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
