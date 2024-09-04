@@ -1,6 +1,11 @@
-# UXUY Wallet Integration QuickStart Guide
+---
+sidebar_label: "Quick Start"
+sidebar_position: 2
+---
 
-This guide will help you quickly integrate UXUY Wallet into your decentralized application (DApp).
+# QuickStart
+
+This guide will help you quickly integrate UXUY Telegram Wallet into your decentralized application (telegram miniapp).
 
 ## Prerequisites
 
@@ -17,7 +22,7 @@ npm install @uxuycom/web3-tg-sdk
 
 ## Step 2: Import and Initialize the SDK
 
-In your JavaScript file, import and initialize the UXUY SDK:
+In your JavaScript file, import and initialize the UXUY-Connect SDK:
 
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
@@ -25,7 +30,7 @@ import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
 const { ethereum } = new WalletTgSdk();
 ```
 
-## Step 3: Connect to UXUY Wallet
+## Step 3: Connect to Wallet
 
 Implement a function to connect to the UXUY Wallet:
 

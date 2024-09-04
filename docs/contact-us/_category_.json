@@ -2,7 +2,7 @@
   "label": "Contact us",
   "position": 10,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index"
    }
