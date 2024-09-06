@@ -1,6 +1,11 @@
-# UXUY Wallet Integration QuickStart Guide
+---
+sidebar_label: "Quick Start"
+sidebar_position: 2
+---
 
-This guide will help you quickly integrate UXUY Wallet into your decentralized application (DApp).
+# 🚀 QuickStart
+
+This guide will help you quickly integrate UXUY Telegram Wallet into your decentralized application (telegram miniapp).
 
 
 ### MetaMask Standard Wallet Integration (Beta)
@@ -40,7 +45,7 @@ npm install @uxuycom/web3-tg-sdk
 
 ## Step 2: Import and Initialize the SDK
 
-In your JavaScript file, import and initialize the UXUY SDK:
+In your JavaScript file, import and initialize the UXUY-Connect SDK:
 
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
@@ -48,7 +53,7 @@ import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
 const { ethereum } = new WalletTgSdk();
 ```
 
-## Step 3: Connect to UXUY Wallet
+## Step 3: Connect to Wallet
 
 Implement a function to connect to the UXUY Wallet:
 
@@ -199,7 +204,7 @@ async function sendTransaction(to, value) {
 
 }
 
-// Call this function to send a transaction 0.01 ether to the address 0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5
+// Call this function to send a transaction 0.001 ether to the address 0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5
 
 sendTransaction("0x0F9171aFF2dbd8c02Dd9cFEaBDB61fDd8D2675c5", 0.001 * 10 ** 18);
 

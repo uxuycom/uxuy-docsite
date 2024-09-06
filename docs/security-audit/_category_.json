@@ -2,7 +2,7 @@
   "label": "Security & Audit",
   "position": 11,
   "collapsible": true,
-  "collapsed": false,
+  "collapsed": true,
   "link": {
     "type": "generated-index",
     "description": "Security is very important for us."

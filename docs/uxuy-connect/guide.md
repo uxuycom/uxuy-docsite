@@ -1,15 +1,22 @@
-# UXUY Wallet Integration Guide
+---
+sidebar_label: "Docs"
+sidebar_position: 3
+---
+
+# 🧩 UXUY Connect Guide
 
 ## Overview
 
-This guide demonstrates how to integrate the UXUY Wallet into your decentralized application (DApp) using the UXUY SDK. The integration enables users to connect their UXUY Wallet on Telegram and perform multi-chain transactions seamlessly.
+This guide demonstrates how to integrate the UXUY Wallet into your telegram mini application (miniapp) using the UXUY Connect SDK.
+
+The integration enables users to connect their UXUY Wallet on Telegram and perform multi-chain transactions seamlessly.
 
 ## Resources
 
 - [UXUY Wallet on Telegram](https://t.me/UXUYbot)
 - [Connection Demo](https://t.me/uxuy_demo_miniapp_bot/demo)
 - [Connection Demo Repository](https://github.com/uxuycom/test-tg-dapp)
-- [UXUY SDK Repository](https://github.com/uxuycom/uxuy-docsite)
+- UXUY SDK Repository
 - [Create a Telegram Bot](https://core.telegram.org/bots/tutorial#executing-commands)
 - [Create a Telegram MinApp](https://core.telegram.org/bots#replace-entire-websites)
 
