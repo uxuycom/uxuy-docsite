@@ -14,6 +14,7 @@ Current Status:
 Code snippet for connection:
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk'
+
 new WalletTgSdk({ injected: true })
 
 // use window.ethereum to interact with the wallet
