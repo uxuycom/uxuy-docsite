@@ -15,7 +15,7 @@ const  CustomCard = props => {
                     class="text--truncate cardTitle_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
                     title={title|| ""}
                 >
-                    📄️{title}
+                    📄️ {title}
                 </h2>
                 <p
                     class="text--truncate cardDescription_node_modules-@docusaurus-theme-classic-lib-theme-DocCard-styles-module"
