@@ -20,9 +20,14 @@ Code snippet for connection:
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk'
 
-new WalletTgSdk({ injected: true })
+const { ethereum } =  new WalletTgSdk({ 
+  injected: true  // Whether ethereum is injected into the window; if MetaMask is present, it will not be injected.
+})
 
+//Trigger Telegram
+ethereum
 // use window.ethereum to interact with the wallet
 window.ethereum
+
 ```
 
