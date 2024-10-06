@@ -105,3 +105,10 @@ try {
 
 
 
+
+
+### disconnect TronLink
+
+```ts
+tronLink.disconnect();
+```
