@@ -1,5 +1,5 @@
 ---
-sidebar_label: "TronLink5 Connect"
+sidebar_label: "TronLink Connect"
 sidebar_position: 4
 ---
 # TronLink Connect Integration
