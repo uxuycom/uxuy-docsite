@@ -85,7 +85,7 @@ For making transfers using TronLink, refer to [General Transfer from TronLink](h
 
 const tronWeb = await getTronWeb();
 const fromAddress = tronWeb.defaultAddress.base58;
-const toAddress = "TAHQdDiZajMMP26STUnfsiRMNyXdxAJakZ";
+const toAddress = "TP97FypN1UaptxhT5p6uRWsxszcRH7GXJn";
 
 // Step 1: Build the transaction
 const tx = await tronWeb.transactionBuilder.sendTrx(toAddress, 10, fromAddress);
