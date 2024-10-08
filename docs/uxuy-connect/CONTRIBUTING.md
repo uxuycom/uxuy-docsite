@@ -1,6 +1,6 @@
 ---
 sidebar_label: "How to Contributing"
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 # Contributing to UXUY Connect
@@ -9,17 +9,19 @@ We're thrilled that you're interested in contributing to UXUY Connect! This docu
 
 ## Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
-- [How Can I Contribute?](#how-can-i-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Your First Code Contribution](#your-first-code-contribution)
-  - [Pull Requests](#pull-requests)
-- [Styleguides](#styleguides)
-  - [Git Commit Messages](#git-commit-messages)
-  - [JavaScript Styleguide](#javascript-styleguide)
-  - [Documentation Styleguide](#documentation-styleguide)
-- [Community](#community)
+- [Contributing to UXUY Connect](#contributing-to-uxuy-connect)
+  - [Table of Contents](#table-of-contents)
+  - [Code of Conduct](#code-of-conduct)
+  - [How Can I Contribute?](#how-can-i-contribute)
+    - [Reporting Bugs](#reporting-bugs)
+    - [Suggesting Enhancements](#suggesting-enhancements)
+    - [Your First Code Contribution](#your-first-code-contribution)
+    - [Pull Requests](#pull-requests)
+  - [Styleguides](#styleguides)
+    - [Git Commit Messages](#git-commit-messages)
+    - [JavaScript Styleguide](#javascript-styleguide)
+    - [Documentation Styleguide](#documentation-styleguide)
+  - [Community](#community)
 
 ## Code of Conduct
 

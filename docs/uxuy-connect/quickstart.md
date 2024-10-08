@@ -23,10 +23,14 @@ Current Status:
 Code snippet for connection:
 ```javascript
 import { WalletTgSdk } from '@uxuycom/web3-tg-sdk'
-new WalletTgSdk({ injected: true })
+new WalletTgSdk({ 
+    injected: true,  // default: false,   If `window.ethereum` does not exist, inject window.ethereum
+    metaData: {
+        name: 'UXUY Wallet', // if you want to use a custom name
+        icon: 'https://uxuy.com/logo.png', // if you want to use a custom icon
+    }
+})
 
-// use window.ethereum to interact with the wallet
-window.ethereum
 ```
 
 
