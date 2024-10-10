@@ -1,6 +1,6 @@
 ---
 sidebar_label: "integrated MetaMask Standard (Beta)"
-sidebar_position: 8
+sidebar_position: 3
 ---
 
 # integrated MetaMask Standard (Beta)
