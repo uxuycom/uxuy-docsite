@@ -58,7 +58,6 @@ UXUY Wallet supports multiple chains:
 | PlatON       | 210425             | 0x335f9                |
 | Ton          | 239                | 0xef                   |
 | Tron         | 728126428          | 0x2b6653dc             |
-| Lightning    | 2652501241         | 0x9e19f4f9             |
 | ...          | ...                | ...                    |
 
 ## Contributing
