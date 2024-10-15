@@ -30,32 +30,36 @@ npm install @uxuycom/web3-tg-sdk
 
 ## Integration
 
-- [Ethereum Wallet Integration](https://docs.uxuy.com/uxuy-connect/evm/) 
+- [Ethereum Wallet Integration](https://docs.uxuy.com/uxuy-connect/evm/)
 - [Tron Wallet Integration](https://docs.uxuy.com/uxuy-connect/tronconnect)
 - [Ton Connect Integration](https://docs.uxuy.com/uxuy-connect/tonconnect)
 
 ## Supported Chains
 
-
 UXUY Wallet supports multiple chains:
 
-| Chain Name | Chain ID (Decimal) | Chain ID (Hexadecimal) |
-|------------|--------------------|-----------------------|
-| Ethereum   | 1                  | 0x1                   |
-| BNB Chain  | 56                 | 0x38                  |
-| Base       | 8453               | 0x2105                |
-| Arbitrum   | 42161              | 0xa4b1                |
-| Polygon    | 137                | 0x89                  |
-| Fantom     | 250                | 0xfa                  |
-| Optimism   | 10                 | 0xa                   |
-| Avalanche  | 43114              | 0xa86a                |
-| zkSync Era | 324                | 0x144                 |
-| Linea      | 59144              | 0xe708                |
-| Core       | 1116               | 0x45c                 |
-| zkLink     | 810180             | 0xc5cc4               |
-| Ton        | 239                |  --                   |
-| Tron       | --                 |  --                   |
-| ...        | ...                |  ...                  |
+| Chain Name   | Chain ID (Decimal) | Chain ID (Hexadecimal) | Chain Specification | DApp Supported |
+| ------------ | ------------------ | ---------------------- | ------------------- | -------------- |
+| Ethereum     | 1                  | 0x1                    | EVM                 | ✅             |
+| BNB Chain    | 56                 | 0x38                   | EVM                 | ✅             |
+| Base         | 8453               | 0x2105                 | EVM                 | ✅             |
+| Arbitrum     | 42161              | 0xa4b1                 | EVM                 | ✅             |
+| Polygon      | 137                | 0x89                   | EVM                 | ✅             |
+| Fantom       | 250                | 0xfa                   | EVM                 | ✅             |
+| Optimism     | 10                 | 0xa                    | EVM                 | ✅             |
+| Avalanche    | 43114              | 0xa86a                 | EVM                 | ✅             |
+| zkSync Era   | 324                | 0x144                  | EVM                 | ✅             |
+| Linea        | 59144              | 0xe708                 | EVM                 | ✅             |
+| Core         | 1116               | 0x45c                  | EVM                 | ✅             |
+| zkLink Nova  | 810180             | 0xc5cc4                | EVM                 | ✅             |
+| opBNB Chain  | 204                | 0xcc                   | EVM                 | ✅             |
+| MAP Protocol | 22776              | 0x58f8                 | EVM                 | ✅             |
+| Bitlayer     | 200901             | 0x310c5                | EVM                 | ✅             |
+| PlatON       | 210425             | 0x335f9                | EVM                 | ✅             |
+| Ton          | -                  | -                      | TON                 | ✅             |
+| Tron         | -                  | -                      | TRON                | ✅             |
+| Lighting     | -                  | -                      | LIGHTING            | ❌             |
+| ...          | ...                | ...                    | ...                 | ...            |
 
 ## Contributing
 
