@@ -1,5 +1,5 @@
 ---
-sidebar_label: "Ethereum(evm) Connect"
+sidebar_label: "EVM Connect"
 sidebar_position: 3
 ---
 
