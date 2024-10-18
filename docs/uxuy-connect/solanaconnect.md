@@ -4,6 +4,8 @@ sidebar_position: 4
 ---
 # Solana Connect Integration
 
+support version >=0.1.3
+
 This documentation will guide you in the easiest way to connect your This guide will walk you through the easiest way to connect your DApp with the UXUY Wallet application.
 
   - [solana-rpc-api](http://cw.hubwiz.com/card/c/solana-rpc-api/1/1/42/)
