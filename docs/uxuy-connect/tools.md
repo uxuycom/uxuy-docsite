@@ -5,15 +5,11 @@ sidebar_position: 4
 # Tools
 support version >=0.1.3
 
-## Using the SDK
-You can use the `@uxuycom/web3-tg-sdk` to connect your DApp to the UxuyWallet application.
-
-
 ### Installation
 Install the UXUY SDK  packages via npm:
 
 ```bash
-npm install @uxuycom/web3-tg-sdk @solana/web3.js @solana/spl-token
+npm install @uxuycom/web3-tg-sdk
 ```
 ### Usage
 
@@ -43,8 +39,8 @@ const link = OpenLink.getUniversalReceivePaymentLink(
 // You can use this link to invite your friends to join the UxuyWallet
 const InviteLink = OpenLink.getUniversalInviteLink(
     {
-        inviteTgId: "1234567890",
-        inviteTgChannel: "InviteChannel"
+        inviteTgId: "<Your Telegram ID>",
+        inviteTgChannel: "<Your Telegram Channel>"
     }
 )
 
