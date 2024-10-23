@@ -1,11 +1,9 @@
 ---
-sidebar_label: "integrated MetaMask Standard (Beta)"
+sidebar_label: "Integrated MetaMask Standard (Beta)"
 sidebar_position: 3
 ---
 
-# integrated MetaMask Standard (Beta)
-
-Based on your request, I'll rephrase the content in the image using more professional open-source project terminology:
+# Integrated MetaMask Standard (Beta)
 
 MetaMask Standard Wallet Integration (Beta)
 
