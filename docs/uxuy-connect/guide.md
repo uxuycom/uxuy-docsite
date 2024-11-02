@@ -59,6 +59,7 @@ UXUY Wallet supports multiple chains:
 | Ton          | -                  | -                      | TON                 | ✅             |
 | Tron         | -                  | -                      | TRON                | ✅             |
 | Lighting     | -                  | -                      | LIGHTING            | ❌             |
+| Flow         | 747                | -                      | EVM                 | ✅             |
 | ...          | ...                | ...                    | ...                 | ...            |
 
 ## Contributing
