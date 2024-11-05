@@ -35,7 +35,7 @@ import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
         //     name: 'Your DApp Name',
         //     icon: 'https://example.com/icon.png'
         // }
-  
+
     });
    const solanaProvoder = solana
 ```
@@ -44,7 +44,7 @@ import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
 ### isConnected
 
 ```ts
-    const isConnected = solanaProvider.isConnected 
+    const isConnected = solanaProvider.isConnected
     const isConnected = solanaProvider.connected;
 ```
 
@@ -64,7 +64,7 @@ import { WalletTgSdk } from '@uxuycom/web3-tg-sdk';
 
 ### getAccount
 ```ts
- 
+
     const address = await solanaProvider.getAccount()
 ```
 
@@ -78,10 +78,10 @@ When a web application is connected to UXUY Wallet, it can also request that the
 
 ```ts
 try {
-    
+
     const { publicKey, signature } = await solanaProvider.signMessage(Buffer.from("0x1232131").toString("hex"));
 
-    
+
 } catch (e) {
     // Error handling
 }
@@ -113,10 +113,10 @@ transaction.add(
     })
 )
 
-transaction.feePayer = fromPubkey; //feePayer 
-transaction.recentBlockhash = (await connection.getRecentBlockhash())?.blockhash; // 最新的交易hash
+transaction.feePayer = fromPubkey; //feePayer
+transaction.recentBlockhash = (await connection.getRecentBlockhash())?.blockhash;
 
-     
+
 const signedTransaction = await solanaProvider.signTransaction(transaction)
 await connection.sendRawTransaction(signedTransaction.serialize());
 
