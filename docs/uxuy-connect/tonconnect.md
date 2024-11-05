@@ -94,9 +94,10 @@ use  @tonconnect/ui
 
                     name: "UXUY Wallet",
                     appName: "uxuyTonWallet",
+                    
                     // we will support tonconnect-v2 in the future
                     // jsBridgeKey: "uxuyTonWallet",
-                    // injected: true,
+                    aboutUrl: "https://uxuy.com",
                     universalLink: "https://t.me/UXUYbot/app",
                     bridgeUrl: "https://bridge.tonapi.io/bridge",
                     imageUrl: "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
@@ -127,8 +128,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
 
                     // we will support tonconnect-v2 in the future
                     // jsBridgeKey: "uxuyTonWallet",
-                    // injected: true,
-
+                    aboutUrl: "https://uxuy.com",
                     universalLink: "https://t.me/UXUYbot/app",
                     bridgeUrl: "https://bridge.tonapi.io/bridge",
                     imageUrl: "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
