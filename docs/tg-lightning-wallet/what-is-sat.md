@@ -1,5 +1,5 @@
 ---
-sidebar_label: "What is sat？"
+sidebar_label: "What is sats？"
 sidebar_position: 3
 ---
 # What is sat？
