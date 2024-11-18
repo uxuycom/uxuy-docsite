@@ -1,11 +1,11 @@
 ---
-sidebar_label: "Integrated MetaMask Standard (Beta)"
+sidebar_label: "Integrated MetaMask Standard"
 sidebar_position: 3
 ---
 
-# Integrated MetaMask Standard (Beta)
+# Integrated MetaMask Standard
 
-MetaMask Standard Wallet Integration (Beta)
+MetaMask Standard Wallet Integration
 
 We are pleased to announce the integration of MetaMask's standard wallet. Connection can now be established with a single line of code.
 

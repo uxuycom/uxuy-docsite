@@ -7,8 +7,6 @@ sidebar_position: 1
 
 ## Our Thesis
 
-> Follow Smart Money
-
 We believe:
 - Aggregating liquidity is the most effective way to achieve better trading depth.
 - Stablecoin-centric bridges are the most effective means of achieving cross-chain trading.
@@ -25,12 +23,10 @@ Our protocol is built on a stablecoin-based bridge that sources liquidity from v
 
 UXUY provides a suite of products, including our customisable widget that can be easily embedded into your DApp, allowing your team to focus on building without worrying about integrating disparate bridges and DEXs, which could take months. We also offer API that not only offers the freedom of customizing UI but empowers you with the strong functionalities of UXUY protocol. Customizable and Powerful.
 
-We prioritize security over everything else and our smart contract is externally and independently audited by CertiK and other smart contract security firms to ensure every transaction is safe and secure.
+We prioritize security over everything else and our smart contract is externally and independently audited by Slowmist and other smart contract security firms to ensure every transaction is safe and secure.
 
 
-## Swap Now 
-
-screenshot here
+## Trade Now 
 
 Please visit our [Website](https://uxuy.com/).
 
@@ -39,3 +35,7 @@ Please visit our [Website](https://uxuy.com/).
 We welcome you to join our community where you can stay up-to-date with the latest updates and developments. Our team will be happy to assist you 24/7. 
 
 Don't miss out on the opportunity to connect with other like-minded individuals and be part of the growing community. Follow us on our official social media channels below.
+
+- Telegram: [@uxuycom](https://t.me/uxuycom)
+- Twitter: [@uxuycom](https://x.com/uxuycom)
+- Linktree: [https://linktr.ee/uxuycom](https://linktr.ee/uxuycom)

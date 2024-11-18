@@ -1,6 +1,6 @@
 ---
 sidebar_label: "Privacy Policy"
-sidebar_position: 13
+sidebar_position: 8
 ---
 
 # UXUY Privacy Policy

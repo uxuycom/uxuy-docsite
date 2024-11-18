@@ -83,9 +83,7 @@ const config = {
         },
         items: [
           { to: "https://uxuy.com", label: "Home", position: "left" },
-          { to: "https://uxuy.com/exchange", label: "Exchange", position: "left" },
           { to: "https://uxuy.com/wallet", label: "Wallet", position: "left" },
-          { to: "https://uxuy.com/protocol", label: "Protocol", position: "left" },
           { to: "https://blog.uxuy.com/", label: "Blog", position: "left" },
           { to: "https://learn.uxuy.com/", label: "Learn", position: "left" },
           { to: "https://github.com/uxuycom", label: "Github", position: "left" },
