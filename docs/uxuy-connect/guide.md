@@ -62,7 +62,7 @@ UXUY Wallet supports multiple chains:
 | Flow         | 747                | -                      | EVM                 | ✅             |
 | ...          | ...                | ...                    | ...                 | ...            | 
 
-> ⚠️ Warning:EVM chains not supported in the table can be developed using custom chains.
+> ⚠️ Warning:EVM chains not supported in the table can be developed using custom chains.  
 > [How to add custom chains to the code.](https://github.com/orgs/uxuyconnect/discussions/11)
 
 ## Contributing
