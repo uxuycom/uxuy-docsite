@@ -49,7 +49,7 @@ UXUY Wallet supports multiple chains:
 | Optimism     | 10                 | 0xa                    | EVM                 | ✅             |
 | Avalanche    | 43114              | 0xa86a                 | EVM                 | ✅             |
 | zkSync Era   | 324                | 0x144                  | EVM                 | ✅             |
-| Linea        | 59144              | 0xe708                 | EVM                 | ✅             |
+| Linea        | 59144              | 0xe708                 | EVM                 | ❌*            |
 | Core         | 1116               | 0x45c                  | EVM                 | ✅             |
 | zkLink Nova  | 810180             | 0xc5cc4                | EVM                 | ✅             |
 | opBNB Chain  | 204                | 0xcc                   | EVM                 | ✅             |
@@ -60,7 +60,12 @@ UXUY Wallet supports multiple chains:
 | Tron         | -                  | -                      | TRON                | ✅             |
 | Lighting     | -                  | -                      | LIGHTING            | ❌             |
 | Flow         | 747                | -                      | EVM                 | ✅             |
-| ...          | ...                | ...                    | ...                 | ...            |
+| ...          | ...                | ...                    | ...                 | ...            | 
+
+> ⚠️ Warning:EVM chains not supported in the table can be developed using custom chains.  
+> [How to add custom chains to the code.](https://github.com/orgs/uxuyconnect/discussions/11)
+
+> *   : Due to some internal cooperation reasons, it is not supported at the moment with Linea Chain.
 
 ## Contributing
 
