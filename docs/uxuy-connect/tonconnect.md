@@ -8,18 +8,18 @@ sidebar_position: 4
 This document provides information on how to integrate the TON Connect for UXUY Wallet.
 
 
-# Ton Connect SDk
+# Ton Connect SDK
 
 TonConnect is an open protocol that connects wallets and DApps (Web3 applications). It uses a bridge (JS Bridge or Http Bridge) to establish a connection between two applications and/or devices and starts communication.
 Uxuy Wallet fully supports TonConnect.
 
 ## TonConnect SDK Packages and UXUY Wallet Integration Demo
 
-ton docs:
-- [ton docs](https://docs.ton.org/develop/overview)
+TON docs:
+- [TON docs](https://docs.ton.org/develop/overview)
 - [TonConnect Official overview](https://docs.ton.org/develop/dapps/ton-connect/overview)
 
-sdk packages:
+SDK packages:
 - [@tonconnect/ui](https://www.npmjs.com/package/@tonconnect/ui)
 - [@tonconnect/ui-react](https://www.npmjs.com/package/@tonconnect/ui-react)
 - [@tonconnect/ui api](https://ton-connect.github.io/sdk/modules/_tonconnect_ui.html)
@@ -31,24 +31,21 @@ UXUY Wallet integration demo:
 - [quickstart-demo for @tonconnect/ui-react](https://github.com/uxuySafe/examples/tree/main/examples/tonconnect-v2/src/pages/tonconnectUiReact)
 
 
-
-
-
-
 ## UXUY Wallet Integration
 
-To integrate the TonConnect SDK into the Uxuy Wallet, follow the steps below:
+To integrate the TonConnect SDK into the UXUY Wallet, follow the steps below:
 
 ### Step 1: Install the TonConnect SDK package and initialize :
 
-use  @tonconnect/ui 
-
-```ts
-npm install @tonconnect/ui 
+#### use  @tonconnect/ui 
 
 ```
-use  @tonconnect/ui-react
-```ts
+npm install @tonconnect/ui 
+```
+
+#### use @tonconnect/ui-react
+
+```
 npm install @tonconnect/ui-react 
 ```
 
@@ -66,7 +63,6 @@ npm install @tonconnect/ui-react
 Add the following configuration to the `walletsListConfiguration.includeWallets` array in the `TonConnectUI` constructor:
 
 ```json
- 
   {
         "name": "UXUY Wallet",
         "appName": "uxuyTonWallet",
@@ -77,8 +73,6 @@ Add the following configuration to the `walletsListConfiguration.includeWallets`
         "platforms": ["android", "ios", "linux", "windows", "macos"],
 },
 ```
-
-
 
 use  @tonconnect/ui 
 ```ts
@@ -108,7 +102,7 @@ use  @tonconnect/ui
     },
 
     manifestUrl: "<Your manifest url>",
-    // manifestUrl: "https://raw.githubusercontent.com/uxuySafe/examples/bb930d695232f2a9d900dfe69f429604dc00bbea/examples/tonconnect-v2/public/tonconnect-manifest.json",
+    // manifestUrl: "https://raw.githubusercontent.com/uxuySafe/examples/bb930d695232f2a9d900dfe69f429604dc00bbea/examples/tonconnect-v2/public/tonconnect-manifest.json"
 })
 
 ```
@@ -138,14 +132,13 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
         }}>
             <App/>
         </TonConnectUIProvider>
-
 ```
 
 ### Step 3: Add the TonConnect UI button to the UI of the DApp:
 
-use  @tonconnect/ui 
-```tsx
+#### use  @tonconnect/ui 
 
+```tsx
 // open Single Wallet Modal:
 <button onClick={() => tonConnectUI.openSingleWalletModal("uxuyTonWallet")}
     >Connect to UXUY Wallet</button>
@@ -162,10 +155,10 @@ use  @tonconnect/ui
             });
 //  remove listener      
 // unsubscribe()
-
 ```
 
-use  @tonconnect/ui-react
+#### use  @tonconnect/ui-react
+
 ```tsx
     import { TonConnectButton, useTonAddress, useTonWallet, Locales, useTonConnectUI, useTonConnectModal,  } from "@tonconnect/ui-react"
 
@@ -203,13 +196,11 @@ use  @tonconnect/ui-react
 
 ```
 
-
 ### Step 4: sign and send transactions using TonConnect SDK:
 
-use  @tonconnect/ui 
+#### use  @tonconnect/ui 
 
 ```tsx
-
 <button onClick={ 
     async () => {
         const transaction = {
@@ -231,10 +222,10 @@ use  @tonconnect/ui
 }>
     sendTransaction
 </button>
-
 ```
 
-use  @tonconnect/ui-react
+#### use  @tonconnect/ui-react
+
 ```tsx
 
 const [tonConnectUI] = useTonConnectUI();
@@ -258,5 +249,13 @@ const [tonConnectUI] = useTonConnectUI();
         const result = await tonConnectUI.sendTransaction(myTransaction)
         return result
     }
-
 ```
+
+## Warning
+The development environment cannot scan the code and currently does not support:
+- UXUY is designed for single device use and does not have a QR code scanning scenario.
+- The official SDK of Telegram Mini Program has an implementation path, especially the PC version used by this developer.
+
+If you encounter this situation in the future, please use TON's official SDK for development:
+
+[TON Connect Docs](https://docs.ton.org/develop/dapps/ton-connect/overview)
