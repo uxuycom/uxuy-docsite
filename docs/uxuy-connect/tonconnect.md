@@ -72,7 +72,7 @@ Add the following configuration to the `walletsListConfiguration.includeWallets`
         "appName": "uxuyTonWallet",
 
         "universalLink": "https://t.me/UXUYbot/app",
-        "bridgeUrl": "https://bridge.tonapi.io/bridge",
+        "bridgeUrl": "https://bridge.uxuy.me/bridge",
         "imageUrl": "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
         "platforms": ["android", "ios", "linux", "windows", "macos"],
 },
@@ -99,7 +99,7 @@ use  @tonconnect/ui
                     // jsBridgeKey: "uxuyTonWallet",
                     aboutUrl: "https://uxuy.com",
                     universalLink: "https://t.me/UXUYbot/app",
-                    bridgeUrl: "https://bridge.tonapi.io/bridge",
+                    bridgeUrl: "https://bridge.uxuy.me/bridge",
                     imageUrl: "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
                     platforms: ["android", "ios", "linux", "windows", "macos"],
                 }
@@ -130,7 +130,7 @@ import { TonConnectUIProvider } from '@tonconnect/ui-react';
                     // jsBridgeKey: "uxuyTonWallet",
                     aboutUrl: "https://uxuy.com",
                     universalLink: "https://t.me/UXUYbot/app",
-                    bridgeUrl: "https://bridge.tonapi.io/bridge",
+                    bridgeUrl: "https://bridge.uxuy.me/bridge",
                     imageUrl: "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
                     platforms: ["android", "ios", "linux", "windows", "macos"],
                 }
