@@ -11,6 +11,9 @@ The UXUY SDK implements the Ethereum Provider API, allowing seamless integration
 - [examples using @rainbow-me/rainbowkit and wagmi](https://github.com/uxuySafe/examples)
 - [quickstart](https://docs.uxuy.com/uxuy-connect/quickstart/)
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::
 
 ## Installation
 

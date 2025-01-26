@@ -9,6 +9,10 @@ sidebar_position: 1
 
 UXUY Connect is an innovative ecosystem designed to seamlessly integrate blockchain technology with instant messaging platforms. Our mission is to redefine how users interact with blockchain applications, creating unprecedented opportunities for developers, public chains, and users alike.
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::
+
 ## Technical Overview
 
 UXUY Connect leverages cutting-edge technology to bridge the gap between blockchain applications and mainstream users:

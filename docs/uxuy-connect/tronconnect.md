@@ -10,6 +10,10 @@ This documentation will guide you in the easiest way to connect your This guide 
 You can access it in the same way as  access
 You can access it similarly to the [TronLink object API](https://docs.tronlink.org/dapp/start-developing) method.
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::
+
 ## Using the SDK
 You can use the `@uxuycom/web3-tg-sdk/dist/tronLinkProvider.es` to connect your DApp to the UxuyWallet application.
 

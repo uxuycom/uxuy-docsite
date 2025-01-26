@@ -29,3 +29,6 @@ window.ethereum
 
 ```
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::

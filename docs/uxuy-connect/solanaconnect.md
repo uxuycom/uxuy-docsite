@@ -10,6 +10,10 @@ This documentation will guide you in the easiest way to connect your This guide 
 
   - [solana-rpc-api](http://cw.hubwiz.com/card/c/solana-rpc-api/1/1/42/)
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::
+
 ## Using the SDK
 You can use the `@uxuycom/web3-tg-sdk` to connect your DApp to the UxuyWallet application.
 

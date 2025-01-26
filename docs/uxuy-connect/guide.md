@@ -11,6 +11,10 @@ This guide demonstrates how to integrate the UXUY Wallet into your telegram mini
 
 The integration enables users to connect their UXUY Wallet on Telegram and perform multi-chain transactions seamlessly.
 
+:::caution
+UXUY TG Wallet no longer supports non-Ton Connect. DApp projects using EVM, Solana, or Tron Connect should upgrade promptly.
+:::
+
 ## Resources
 
 - [UXUY Wallet on Telegram](https://t.me/UXUYbot)
