@@ -87,7 +87,7 @@ UXUY Connect represents a paradigm shift in blockchain application development a
 
 **Unlock limitless possibilities with UXUY Connect.**
 
-[Quickstart](/docs/uxuy-connect/quickstart.md) | [GitHub](https://github.com/uxuycom)
+[GitHub](https://github.com/uxuycom)
 | [NPM](https://www.npmjs.com/package/@uxuycom/web3-tg-sdk)
 
 
