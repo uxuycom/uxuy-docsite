@@ -121,7 +121,28 @@ const config = {
       },
     }),
 
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  plugins: [
+    require.resolve("docusaurus-lunr-search"),
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        redirects: [
+          {
+            to: '/',
+            from: [
+              '/uxuy-connect/evm',
+              '/uxuy-connect/guide',
+              '/uxuy-connect/quickstart',
+              '/uxuy-connect/solanaconnect',
+              '/uxuy-connect/tronconnect',
+              '/uxuy-connect/metamaskstandard',
+            ],
+          },
+        ],
+      },
+    ],
+
+  ],
 };
 
 module.exports = config;
