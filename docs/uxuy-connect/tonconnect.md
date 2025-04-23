@@ -71,9 +71,9 @@ Add the following configuration to the `walletsListConfiguration.includeWallets`
         "name": "UXUY Wallet",
         "appName": "uxuyTonWallet",
 
-        "universalLink": "https://t.me/UXUYbot/app",
+        "universalLink": "https://t.me/UXUYbot?attach=wallet",
         "bridgeUrl": "https://bridge.uxuy.me/bridge",
-        "imageUrl": "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
+        "imageUrl": "https://chain-cdn.uxuy.com/logo/square_288.png",
         "platforms": ["android", "ios", "linux", "windows", "macos"],
 },
 ```
@@ -98,9 +98,9 @@ use  @tonconnect/ui
                     // we will support tonconnect-v2 in the future
                     // jsBridgeKey: "uxuyTonWallet",
                     aboutUrl: "https://uxuy.com",
-                    universalLink: "https://t.me/UXUYbot/app",
+                    universalLink: "https://t.me/UXUYbot?attach=wallet",
                     bridgeUrl: "https://bridge.uxuy.me/bridge",
-                    imageUrl: "https://raw.githubusercontent.com/uxuycom/uxuy-docsite/main/static/assets/UXUYWallet-logo/UXUYWallet_logo_circle.svg",
+                    imageUrl: "https://chain-cdn.uxuy.com/logo/square_288.png",
                     platforms: ["android", "ios", "linux", "windows", "macos"],
                 }
 
