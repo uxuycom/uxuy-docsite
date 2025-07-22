@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkuxuy_doc_site=self.webpackChunkuxuy_doc_site||[]).push([[9868],{8166:t=>{t.exports=JSON.parse('{"title":"Contact us","slug":"/category/contact-us","permalink":"/category/contact-us","navigation":{"previous":{"title":"Trading Guide","permalink":"/trading-guide"},"next":{"title":"Brand & Logo","permalink":"/contact-us/brand-logo"}}}')}}]);

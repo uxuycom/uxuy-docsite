@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkuxuy_doc_site=self.webpackChunkuxuy_doc_site||[]).push([[790],{3494:e=>{e.exports=JSON.parse('{"title":"Dex","slug":"/category/dex","permalink":"/category/dex","navigation":{"previous":{"title":"AA Smart Wallet","permalink":"/aa-smart-wallet"},"next":{"title":"Dex Guide","permalink":"/dex/dex-guide"}}}')}}]);
