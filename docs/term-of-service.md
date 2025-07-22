@@ -139,7 +139,7 @@ you by posting them on the Site or through the Services or by emailing them to y
 email address you provide in connection with using the Services. You should maintain copies
 of our communications by printing a paper copy or saving an electronic copy. You may also
 contact our support team to request additional electronic copies of our Communications by
-filing a support request at [legal@uxuy.com](legal@uxuy.com).
+filing a support request at  legal@uxuy.com.
 
 
 ## 6. INDEMNIFICATION
