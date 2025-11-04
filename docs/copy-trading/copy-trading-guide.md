@@ -105,11 +105,9 @@ If you're a skilled trader, apply to become a **Leader Trader** and earn profit-
 
 ### Step 1: Go to the Application Page
 
-- Open the app →  Tap **Contract "40X"**
-- Find **"Want to be a Leader Trader"** in the banner →  Tap **Apply Now**
+- Open the app →  click **“Trade”**， find **”My Profile”**
 
 <img src="/img/copy-trading/application-page.png" alt="Leader Application Form" width="300px" />
-<img src="/img/copy-trading/application-page-2.png" alt="Leader Application Form" width="300px" style={{marginLeft: "5px",marginRight: "5px"}}/>
 
 ### Step 2: Fill in Leader Information
 

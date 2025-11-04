@@ -85,7 +85,7 @@ UXUY 跟单支持**按比例分配**，即系统会根据带单员的仓位比�
 <img src="/img/copy-trading/cn/positions-and-history.png" alt="My Copy Trades Dashboard" width="300px" />
 <img src="/img/copy-trading/cn/positions-and-history-2.png" alt="My Copy Trades Dashboard" width="300px" />
 
-进入 **[我的跟单]** 页面后，用户可查看 **[当前持仓]** 的实时盈亏情况及交易记录，并可在此调整止盈止损价格或执行平仓操作。
+进入 **[我的跟单]** 页面后，用户可查看 **[当前持仓]** 的实时盈亏情况及交易记录，并可在此执行平仓操作。
 
 <!-- <img src="/img/copy-trading/cn/stop-copy-4-1.png" alt="Stop Copy Trading" width="300px" /> -->
 <img src="/img/copy-trading/cn/stop-copy-4-1.png" alt="Stop Copy Trading" width="300px" />
@@ -105,11 +105,9 @@ UXUY 跟单支持**按比例分配**，即系统会根据带单员的仓位比�
 
 ### 步骤 1：进入带单申请入口
 
-- 打开 APP → 点击 **"交易"**，找到**"我要带单"**
-- 在轮播区域找到 **"Want to be a Leader Trader"** → 点击 **Apply Now**
+- 打开 APP → 点击 **"交易"**，找到**"我的资料"**
 
 <img src="/img/copy-trading/cn/application-page.png" alt="Leader Application Form" width="300px" />
-<img src="/img/copy-trading/cn/application-page-2.png" alt="Leader Application Form" width="300px" style={{marginLeft: "5px",marginRight: "5px"}}/>
 
 ### 步骤 2：填写带单信息
 
