@@ -74,6 +74,8 @@ Currently supports **100+ perpetual contract pairs**, consistent with UXUY contr
 - Enter **margin amount** and **stop-loss ratio**
 - Confirm to start — the system will auto-sync trades
 
+You can also choose reverse copy trading. In this mode, your positions will always be the opposite of the trader’s (their longs become your shorts, and their shorts become your longs).
+
 <img src="/img/copy-trading/copy-trading-interface.png" alt="Copy Trade Interface" width="300px" />
 
 ### Step 4: View Positions and History
