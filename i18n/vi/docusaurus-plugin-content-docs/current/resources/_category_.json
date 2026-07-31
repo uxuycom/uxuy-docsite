@@ -1,0 +1,12 @@
+{
+  "label": "Tài nguyên",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tài nguyên",
+    "description": "Thông tin về phí, câu hỏi thường gặp và các liên kết chính thức.",
+    "slug": "/category/resources"
+  }
+}

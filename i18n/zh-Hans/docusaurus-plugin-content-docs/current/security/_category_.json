@@ -1,0 +1,12 @@
+{
+  "label": "安全与审计",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "安全与审计",
+    "description": "智能合约审计、资金安全机制与链上合约地址。",
+    "slug": "/category/security"
+  }
+}

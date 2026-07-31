@@ -1,0 +1,12 @@
+{
+  "label": "Resources",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Resources",
+    "description": "Fee schedule, FAQ and official links.",
+    "slug": "/category/resources"
+  }
+}

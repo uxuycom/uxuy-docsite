@@ -1,0 +1,12 @@
+{
+  "label": "资源",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "资源",
+    "description": "费用说明、常见问题与官方链接。",
+    "slug": "/category/resources"
+  }
+}

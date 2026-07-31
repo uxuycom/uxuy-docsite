@@ -1,0 +1,12 @@
+{
+  "label": "Seguridad y auditoría",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Seguridad y auditoría",
+    "description": "Auditoría de contratos inteligentes, mecanismos de seguridad de los fondos y direcciones de los contratos on-chain.",
+    "slug": "/category/security"
+  }
+}

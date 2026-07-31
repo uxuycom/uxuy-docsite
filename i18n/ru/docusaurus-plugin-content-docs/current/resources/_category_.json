@@ -1,0 +1,12 @@
+{
+  "label": "Ресурсы",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Ресурсы",
+    "description": "Описание комиссий, часто задаваемые вопросы и официальные ссылки.",
+    "slug": "/category/resources"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Tài khoản và tài sản",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Tài khoản và tài sản",
+    "description": "Tài khoản quỹ, các mạng được hỗ trợ, quy tắc GasLess và khôi phục tài sản.",
+    "slug": "/category/account-and-assets"
+  }
+}

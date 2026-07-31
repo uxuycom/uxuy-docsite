@@ -1,0 +1,12 @@
+{
+  "label": "Cuenta y activos",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Cuenta y activos",
+    "description": "Cuenta de fondos, redes compatibles, reglas de GasLess y recuperación de activos.",
+    "slug": "/category/account-and-assets"
+  }
+}

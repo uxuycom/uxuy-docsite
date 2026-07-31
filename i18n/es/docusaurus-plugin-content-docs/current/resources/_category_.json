@@ -1,0 +1,12 @@
+{
+  "label": "Recursos",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Recursos",
+    "description": "Información sobre comisiones, preguntas frecuentes y enlaces oficiales.",
+    "slug": "/category/resources"
+  }
+}

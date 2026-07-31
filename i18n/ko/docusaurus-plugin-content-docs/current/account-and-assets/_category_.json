@@ -1,0 +1,12 @@
+{
+  "label": "계정 및 자산",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "계정 및 자산",
+    "description": "자금 계정, 지원 네트워크, GasLess 규칙 및 자산 복구입니다.",
+    "slug": "/category/account-and-assets"
+  }
+}

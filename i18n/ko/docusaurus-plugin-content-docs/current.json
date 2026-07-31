@@ -1,0 +1,50 @@
+{
+  "sidebar.docsSidebar.category.Perpetual Contracts": {
+    "message": "무기한 선물",
+    "description": "The label for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.title": {
+    "message": "무기한 선물",
+    "description": "The generated-index page title for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.description": {
+    "message": "UXUY 무기한 선물의 거래 규칙, 증거금 및 손익 계산, 강제 청산 메커니즘, 리스크 티어, 보험 기금과 ADL, 그리고 펀딩 비율과 가격 산정 메커니즘입니다.",
+    "description": "The generated-index page description for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets": {
+    "message": "계정 및 자산",
+    "description": "The label for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.title": {
+    "message": "계정 및 자산",
+    "description": "The generated-index page title for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.description": {
+    "message": "자금 계정, 지원 네트워크, GasLess 규칙 및 자산 복구입니다.",
+    "description": "The generated-index page description for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits": {
+    "message": "보안 및 감사",
+    "description": "The label for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.title": {
+    "message": "보안 및 감사",
+    "description": "The generated-index page title for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.description": {
+    "message": "스마트 컨트랙트 감사, 자금 안전 장치 및 온체인 컨트랙트 주소입니다.",
+    "description": "The generated-index page description for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources": {
+    "message": "리소스",
+    "description": "The label for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.title": {
+    "message": "리소스",
+    "description": "The generated-index page title for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.description": {
+    "message": "수수료 안내, 자주 묻는 질문 및 공식 링크입니다.",
+    "description": "The generated-index page description for category Resources in sidebar docsSidebar"
+  }
+}

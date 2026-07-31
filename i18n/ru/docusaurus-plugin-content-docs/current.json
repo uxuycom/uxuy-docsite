@@ -1,0 +1,50 @@
+{
+  "sidebar.docsSidebar.category.Perpetual Contracts": {
+    "message": "Бессрочные контракты",
+    "description": "The label for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.title": {
+    "message": "Бессрочные контракты",
+    "description": "The generated-index page title for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.description": {
+    "message": "Правила торговли бессрочными контрактами UXUY, расчёт маржи, прибыли и убытка, механизм принудительной ликвидации, уровни риска, страховой фонд и ADL, а также ставка финансирования и механизм ценообразования.",
+    "description": "The generated-index page description for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets": {
+    "message": "Счёт и активы",
+    "description": "The label for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.title": {
+    "message": "Счёт и активы",
+    "description": "The generated-index page title for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.description": {
+    "message": "Счёт средств, поддерживаемые сети, правила GasLess и восстановление активов.",
+    "description": "The generated-index page description for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits": {
+    "message": "Безопасность и аудит",
+    "description": "The label for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.title": {
+    "message": "Безопасность и аудит",
+    "description": "The generated-index page title for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.description": {
+    "message": "Аудит смарт-контрактов, механизмы безопасности средств и адреса ончейн-контрактов.",
+    "description": "The generated-index page description for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources": {
+    "message": "Ресурсы",
+    "description": "The label for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.title": {
+    "message": "Ресурсы",
+    "description": "The generated-index page title for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.description": {
+    "message": "Описание комиссий, часто задаваемые вопросы и официальные ссылки.",
+    "description": "The generated-index page description for category Resources in sidebar docsSidebar"
+  }
+}

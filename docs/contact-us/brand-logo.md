@@ -34,5 +34,4 @@ The UXUY log download can be found at the bottom of this page, but please make s
   - Don't use the UXUY logo in whole or in part as part of your products' logos, marketing material, website, or other.
 
 
-<CustomCard title="Download branding assets"  description="Downloadable assets like the UXUY logo"  link="https://docs.uxuy.com/assets/uxuy-logos.zip" />
-
+<CustomCard title="Download branding assets"  description="Downloadable assets like the UXUY logo"  link="/assets/uxuy-logos.zip" />

@@ -1,9 +1,12 @@
 {
-  "label": "Security",
-  "position": 9,
+  "label": "Security and Audits",
+  "position": 6,
   "collapsible": true,
   "collapsed": true,
   "link": {
-    "type": "generated-index"
-   }
+    "type": "generated-index",
+    "title": "Security and Audits",
+    "description": "Smart contract audits, fund security mechanisms and onchain contract addresses.",
+    "slug": "/category/security"
+  }
 }

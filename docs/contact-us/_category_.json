@@ -1,9 +1,7 @@
 {
   "label": "Contact us",
   "position": 6,
+  "className": "supplemental-doc",
   "collapsible": true,
-  "collapsed": true,
-  "link": {
-    "type": "generated-index"
-   }
+  "collapsed": true
 }

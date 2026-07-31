@@ -1,0 +1,12 @@
+{
+  "label": "リソース",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "リソース",
+    "description": "手数料の説明、よくあるご質問、公式リンク。",
+    "slug": "/category/resources"
+  }
+}

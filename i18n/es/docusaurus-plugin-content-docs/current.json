@@ -1,0 +1,50 @@
+{
+  "sidebar.docsSidebar.category.Perpetual Contracts": {
+    "message": "Contratos perpetuos",
+    "description": "The label for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.title": {
+    "message": "Contratos perpetuos",
+    "description": "The generated-index page title for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.description": {
+    "message": "Reglas de trading de los contratos perpetuos de UXUY, cálculo del margen y de las pérdidas y ganancias, mecanismo de liquidación forzosa, niveles de riesgo, fondo de seguro y ADL, así como la tasa de financiación y el mecanismo de precios.",
+    "description": "The generated-index page description for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets": {
+    "message": "Cuenta y activos",
+    "description": "The label for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.title": {
+    "message": "Cuenta y activos",
+    "description": "The generated-index page title for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.description": {
+    "message": "Cuenta de fondos, redes compatibles, reglas de GasLess y recuperación de activos.",
+    "description": "The generated-index page description for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits": {
+    "message": "Seguridad y auditoría",
+    "description": "The label for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.title": {
+    "message": "Seguridad y auditoría",
+    "description": "The generated-index page title for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.description": {
+    "message": "Auditoría de contratos inteligentes, mecanismos de seguridad de los fondos y direcciones de los contratos on-chain.",
+    "description": "The generated-index page description for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources": {
+    "message": "Recursos",
+    "description": "The label for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.title": {
+    "message": "Recursos",
+    "description": "The generated-index page title for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.description": {
+    "message": "Información sobre comisiones, preguntas frecuentes y enlaces oficiales.",
+    "description": "The generated-index page description for category Resources in sidebar docsSidebar"
+  }
+}

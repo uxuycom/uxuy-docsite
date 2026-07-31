@@ -1,0 +1,12 @@
+{
+  "label": "Счёт и активы",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Счёт и активы",
+    "description": "Счёт средств, поддерживаемые сети, правила GasLess и восстановление активов.",
+    "slug": "/category/account-and-assets"
+  }
+}

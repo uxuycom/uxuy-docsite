@@ -1,0 +1,12 @@
+{
+  "label": "Bảo mật và kiểm toán",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Bảo mật và kiểm toán",
+    "description": "Kiểm toán hợp đồng thông minh, cơ chế bảo đảm an toàn tài sản và địa chỉ hợp đồng on-chain.",
+    "slug": "/category/security"
+  }
+}

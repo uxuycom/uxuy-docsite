@@ -1,0 +1,12 @@
+{
+  "label": "無期限先物",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "無期限先物",
+    "description": "UXUY 無期限先物の取引ルール、証拠金と損益の計算、強制決済メカニズム、リスクティア、保険基金と ADL、およびファンディングレートと価格決定メカニズム。",
+    "slug": "/category/perpetuals"
+  }
+}

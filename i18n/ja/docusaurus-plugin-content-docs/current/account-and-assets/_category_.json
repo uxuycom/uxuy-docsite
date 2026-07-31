@@ -1,0 +1,12 @@
+{
+  "label": "アカウントと資産",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "アカウントと資産",
+    "description": "資金アカウント、サポート対象ネットワーク、GasLess ルール、資産回収。",
+    "slug": "/category/account-and-assets"
+  }
+}

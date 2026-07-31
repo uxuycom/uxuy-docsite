@@ -1,0 +1,12 @@
+{
+  "label": "Contratos perpetuos",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Contratos perpetuos",
+    "description": "Reglas de trading de los contratos perpetuos de UXUY, cálculo del margen y de las pérdidas y ganancias, mecanismo de liquidación forzosa, niveles de riesgo, fondo de seguro y ADL, así como la tasa de financiación y el mecanismo de precios.",
+    "slug": "/category/perpetuals"
+  }
+}

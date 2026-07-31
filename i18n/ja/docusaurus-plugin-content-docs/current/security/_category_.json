@@ -1,0 +1,12 @@
+{
+  "label": "セキュリティと監査",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "セキュリティと監査",
+    "description": "スマートコントラクト監査、資金の安全性に関するメカニズム、オンチェーンコントラクトアドレス。",
+    "slug": "/category/security"
+  }
+}

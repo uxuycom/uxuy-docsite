@@ -1,0 +1,12 @@
+{
+  "label": "永续合约",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "永续合约",
+    "description": "UXUY 永续合约的交易规则、保证金与盈亏计算、强平机制、风险档位、保险基金与 ADL，以及资金费率与定价机制。",
+    "slug": "/category/perpetuals"
+  }
+}

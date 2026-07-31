@@ -1,0 +1,12 @@
+{
+  "label": "Perpetual Contracts",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Perpetual Contracts",
+    "description": "Trading rules for UXUY perpetual contracts, margin and PnL calculations, the liquidation mechanism, risk tiers, the insurance fund and ADL, and funding rate and pricing mechanisms.",
+    "slug": "/category/perpetuals"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "账户与资产",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "账户与资产",
+    "description": "资金账户、支持的网络、GasLess 规则与资产找回。",
+    "slug": "/category/account-and-assets"
+  }
+}

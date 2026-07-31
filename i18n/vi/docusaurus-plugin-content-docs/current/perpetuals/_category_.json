@@ -1,0 +1,12 @@
+{
+  "label": "Hợp đồng vĩnh cửu",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Hợp đồng vĩnh cửu",
+    "description": "Quy tắc giao dịch, cách tính ký quỹ và lãi lỗ, cơ chế thanh lý bắt buộc, bậc rủi ro, quỹ bảo hiểm và ADL, cùng phí funding và cơ chế định giá của hợp đồng vĩnh cửu UXUY.",
+    "slug": "/category/perpetuals"
+  }
+}

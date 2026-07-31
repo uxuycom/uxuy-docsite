@@ -1,0 +1,50 @@
+{
+  "sidebar.docsSidebar.category.Perpetual Contracts": {
+    "message": "永续合约",
+    "description": "The label for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.title": {
+    "message": "永续合约",
+    "description": "The generated-index page title for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.description": {
+    "message": "UXUY 永续合约的交易规则、保证金与盈亏计算、强平机制、风险档位、保险基金与 ADL，以及资金费率与定价机制。",
+    "description": "The generated-index page description for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets": {
+    "message": "账户与资产",
+    "description": "The label for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.title": {
+    "message": "账户与资产",
+    "description": "The generated-index page title for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.description": {
+    "message": "资金账户、支持的网络、GasLess 规则与资产找回。",
+    "description": "The generated-index page description for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits": {
+    "message": "安全与审计",
+    "description": "The label for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.title": {
+    "message": "安全与审计",
+    "description": "The generated-index page title for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.description": {
+    "message": "智能合约审计、资金安全机制与链上合约地址。",
+    "description": "The generated-index page description for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources": {
+    "message": "资源",
+    "description": "The label for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.title": {
+    "message": "资源",
+    "description": "The generated-index page title for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.description": {
+    "message": "费用说明、常见问题与官方链接。",
+    "description": "The generated-index page description for category Resources in sidebar docsSidebar"
+  }
+}

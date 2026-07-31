@@ -1,0 +1,12 @@
+{
+  "label": "Безопасность и аудит",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Безопасность и аудит",
+    "description": "Аудит смарт-контрактов, механизмы безопасности средств и адреса ончейн-контрактов.",
+    "slug": "/category/security"
+  }
+}

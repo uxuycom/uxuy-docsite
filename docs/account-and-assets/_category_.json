@@ -1,0 +1,12 @@
+{
+  "label": "Account and Assets",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "Account and Assets",
+    "description": "Funds Account, supported networks, GasLess rules and Asset Recovery.",
+    "slug": "/category/account-and-assets"
+  }
+}

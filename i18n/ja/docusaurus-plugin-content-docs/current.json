@@ -1,0 +1,50 @@
+{
+  "sidebar.docsSidebar.category.Perpetual Contracts": {
+    "message": "無期限先物",
+    "description": "The label for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.title": {
+    "message": "無期限先物",
+    "description": "The generated-index page title for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Perpetual Contracts.link.generated-index.description": {
+    "message": "UXUY 無期限先物の取引ルール、証拠金と損益の計算、強制決済メカニズム、リスクティア、保険基金と ADL、およびファンディングレートと価格決定メカニズム。",
+    "description": "The generated-index page description for category Perpetual Contracts in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets": {
+    "message": "アカウントと資産",
+    "description": "The label for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.title": {
+    "message": "アカウントと資産",
+    "description": "The generated-index page title for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Account and Assets.link.generated-index.description": {
+    "message": "資金アカウント、サポート対象ネットワーク、GasLess ルール、資産回収。",
+    "description": "The generated-index page description for category Account and Assets in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits": {
+    "message": "セキュリティと監査",
+    "description": "The label for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.title": {
+    "message": "セキュリティと監査",
+    "description": "The generated-index page title for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Security and Audits.link.generated-index.description": {
+    "message": "スマートコントラクト監査、資金の安全性に関するメカニズム、オンチェーンコントラクトアドレス。",
+    "description": "The generated-index page description for category Security and Audits in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources": {
+    "message": "リソース",
+    "description": "The label for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.title": {
+    "message": "リソース",
+    "description": "The generated-index page title for category Resources in sidebar docsSidebar"
+  },
+  "sidebar.docsSidebar.category.Resources.link.generated-index.description": {
+    "message": "手数料の説明、よくあるご質問、公式リンク。",
+    "description": "The generated-index page description for category Resources in sidebar docsSidebar"
+  }
+}

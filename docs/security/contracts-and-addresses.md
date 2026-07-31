@@ -1,14 +1,23 @@
 ---
-sidebar_label: "Contracts and Addresses"
-sidebar_position: 1
+id: contracts-and-addresses
+title: Contract and Infrastructure Addresses
+sidebar_label: Contract and Infrastructure Addresses
+sidebar_position: 2
+description: Publicly disclosed onchain contract and infrastructure addresses of the UXUY perpetual contracts system, for users to verify onchain transactions and fund flows.
+keywords: [contract address, Hot Vault, Cold Vault, settlement contract, staking pool]
 ---
-# Contracts and Addresses
 
-## Ethereum  & BNB Smart Chain & Base Chain
+# Contract and Infrastructure Addresses
 
-| name           |  address                                      |
-|------------------|-----------------------------------------------|
-| Ethereum         | [`0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2`](https://etherscan.io/address/0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2)  |
-| BNB Smart Chain  | [`0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2`](https://bscscan.com/address/0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2)  |
-| Base Chain       | [`0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2`](https://basescan.org/address/0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2) |
-| X Layer          | [`0x743CB7d6D8fBBF93806DeC9B7700743a2641dae2`](https://www.oklink.com/x-layer/address/0x743cb7d6d8fbbf93806dec9b7700743a2641dae2) |
+This page lists the publicly disclosed onchain contract and infrastructure addresses of the UXUY perpetual contracts system, allowing users to verify onchain transactions, fund flows and protocol interactions. When performing onchain verification or interaction, users should rely only on the addresses published in the official UXUY documentation.
+
+| Name | Type | Address |
+| --- | --- | --- |
+| Hot Vault | Hot Vault address | `0x6008F2720fb9456dB6d9B5EEeEDBf88072adAb10` |
+| Cold Vault | Cold Vault address | `0x5BcF7Ec138e8944a6d143576139dBecDfc986051` |
+| Settlement | Settlement contract address | `0x73269d4c1bf6ac558E806a2fcA9aCe9C76B3Dc8F` |
+| Staking Pool | Staking pool contract address | `0xf0fCB28b847C6a8d86A4CB515F19473A3969CE78` |
+
+:::danger Security Notice
+Before any onchain interaction, carefully verify the address, its network and the official block explorer information. UXUY will never ask users via direct message to transfer funds to unknown addresses, nor request private keys, recovery phrases or verification codes.
+:::

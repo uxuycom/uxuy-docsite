@@ -1,0 +1,12 @@
+{
+  "label": "보안 및 감사",
+  "position": 6,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "보안 및 감사",
+    "description": "스마트 컨트랙트 감사, 자금 안전 장치 및 온체인 컨트랙트 주소입니다.",
+    "slug": "/category/security"
+  }
+}

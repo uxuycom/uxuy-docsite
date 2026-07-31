@@ -1,0 +1,12 @@
+{
+  "label": "무기한 선물",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "무기한 선물",
+    "description": "UXUY 무기한 선물의 거래 규칙, 증거금 및 손익 계산, 강제 청산 메커니즘, 리스크 티어, 보험 기금과 ADL, 그리고 펀딩 비율과 가격 산정 메커니즘입니다.",
+    "slug": "/category/perpetuals"
+  }
+}

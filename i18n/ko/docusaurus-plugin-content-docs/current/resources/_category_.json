@@ -1,0 +1,12 @@
+{
+  "label": "리소스",
+  "position": 7,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "title": "리소스",
+    "description": "수수료 안내, 자주 묻는 질문 및 공식 링크입니다.",
+    "slug": "/category/resources"
+  }
+}

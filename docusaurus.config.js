@@ -31,7 +31,20 @@ const config = {
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-Hans", "ja", "ko", "vi", "es", "ru"],
+    localeConfigs: {
+      en: { label: "English", direction: "ltr", htmlLang: "en" },
+      "zh-Hans": {
+        label: "简体中文",
+        direction: "ltr",
+        htmlLang: "zh-Hans",
+      },
+      ja: { label: "日本語", direction: "ltr", htmlLang: "ja" },
+      ko: { label: "한국어", direction: "ltr", htmlLang: "ko" },
+      vi: { label: "Tiếng Việt", direction: "ltr", htmlLang: "vi" },
+      es: { label: "Español", direction: "ltr", htmlLang: "es" },
+      ru: { label: "Русский", direction: "ltr", htmlLang: "ru" },
+    },
   },
 
   presets: [
@@ -87,6 +100,7 @@ const config = {
           { to: "https://blog.uxuy.com/", label: "Blog", position: "left" },
           // { to: "https://learn.uxuy.com/", label: "Learn", position: "left" },
           { to: "https://github.com/uxuycom", label: "Github", position: "left" },
+          { type: "localeDropdown", position: "right" },
         ],
       },
       footer: {
@@ -136,6 +150,7 @@ const config = {
               '/uxuy-connect/solanaconnect',
               '/uxuy-connect/tronconnect',
               '/uxuy-connect/metamaskstandard',
+              '/dapp-terms-of-use',
             ],
           },
         ],
