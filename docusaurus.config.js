@@ -153,6 +153,10 @@ const config = {
               '/dapp-terms-of-use',
             ],
           },
+          {
+            to: '/resources/official-links/',
+            from: ['/contact-us/link-tree'],
+          },
         ],
       },
     ],
