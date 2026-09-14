@@ -19,6 +19,8 @@ This page covers three integration modes:
 
 The examples use a placeholder WalletConnect Cloud project ID. Each DApp must create and use its own project ID; do not copy a project ID from another DApp.
 
+> **Verification status:** App-side source review has confirmed several protocol entry points, but release-version support, production chain configuration and end-to-end device testing are still pending. The network table and test cases below are integration candidates, not a guarantee that every chain or method is enabled in every public App release.
+
 ## Integration steps
 
 1. Create a WalletConnect Cloud (Reown Dashboard) project and keep its project ID private to your DApp.
@@ -54,7 +56,7 @@ The PC browser does not need a UXUY extension. Keep the QR-code option visible e
 
 ### External mobile H5
 
-When a WalletConnect URI is available, use the UXUY deep link to open the DApp in UXUY Wallet:
+When a WalletConnect URI is available, use the UXUY deep link to open UXUY Wallet and start pairing:
 
 ```ts
 export function openUxuyWallet(uri: string) {
@@ -77,7 +79,11 @@ export function openUxuyWalletWithFallback(uri: string) {
 }
 ```
 
-Do not ask users to install a browser extension. The deep link is intended to open the UXUY App and the DApp continues inside the App browser.
+The current App entry point parses the URI, starts pairing and opens the connection confirmation page. It does **not** automatically open the external H5 DApp inside the App browser. Automatic WebView restoration applies only when the original connection was initiated from a UXUY WebView. For an external H5 flow, provide a clear “return to DApp” instruction after approval.
+
+The current flow also requires an existing UXUY login session. If the user is not logged in, the App may not preserve the external link for replay after login; test and document the actual behavior before publishing a one-tap login flow.
+
+Do not ask users to install a browser extension. The deep link only opens UXUY App and starts the pairing/approval flow.
 
 ## EVM standard SDK integration (RainbowKit + wagmi + viem)
 
@@ -91,7 +97,7 @@ npm install @rainbow-me/rainbowkit wagmi viem @tanstack/react-query
 
 ### Configure supported chains
 
-The following networks are currently supported by UXUY for this integration. The icon URLs are UXUY network metadata and can also be copied to your own CDN.
+The following Chain IDs are the current DApp integration candidates. UXUY's available chains are supplied by runtime DApp chain metadata and filtered by the wallet's address capabilities; this table must not be read as a production guarantee until the App release configuration and signing/transaction flows have been verified.
 
 | Chain ID | Name | Network | Stablecoin | Icon |
 | ---: | --- | --- | --- | --- |
@@ -148,7 +154,6 @@ Use RainbowKit's custom-wallet API to show UXUY Wallet as its own entry. The imp
 
 ```tsx
 import {
-  connectorsForWallets,
   getDefaultConfig,
   getWalletConnectConnector,
   type Wallet,
@@ -161,7 +166,7 @@ const projectId = 'YOUR_WALLETCONNECT_PROJECT_ID';
 const uxuyWallet = ({ projectId }: { projectId: string }): Wallet => ({
   id: 'uxuy',
   name: 'UXUY Wallet',
-  iconUrl: 'https://chain-cdn.uxuy.com/logo/square_288.png',
+  iconUrl: 'https://docs.uxuy.com/img/uxuy-wallet-icon.png',
   iconBackground: '#000000',
   // UXUY has no browser extension. The QR-code path stays available on PC.
   mobile: {
@@ -174,6 +179,28 @@ const uxuyWallet = ({ projectId }: { projectId: string }): Wallet => ({
   createConnector: getWalletConnectConnector({ projectId }),
 });
 
+const wallets = [
+  {
+    groupName: 'Recommended',
+    wallets: [uxuyWallet, walletConnectWallet],
+  },
+];
+
+export const config = getDefaultConfig({
+  appName: 'My DApp',
+  projectId,
+  chains: [mainnet, bsc, polygon, base, arbitrum],
+  wallets,
+  ssr: false,
+});
+```
+
+`getDefaultConfig` accepts a wallet list and constructs the connectors itself. If you need to construct connectors manually, use `connectorsForWallets` with wagmi's `createConfig` and configure transports separately:
+
+```tsx
+import { connectorsForWallets } from '@rainbow-me/rainbowkit';
+import { createConfig, http } from 'wagmi';
+
 const connectors = connectorsForWallets(
   [
     {
@@ -184,18 +211,22 @@ const connectors = connectorsForWallets(
   { appName: 'My DApp', projectId },
 );
 
-export const config = getDefaultConfig({
-  appName: 'My DApp',
-  projectId,
+export const config = createConfig({
   chains: [mainnet, bsc, polygon, base, arbitrum],
   connectors,
-  ssr: false,
+  transports: {
+    [mainnet.id]: http(),
+    [bsc.id]: http(),
+    [polygon.id]: http(),
+    [base.id]: http(),
+    [arbitrum.id]: http(),
+  },
 });
 ```
 
 Keep `uxuyWallet` before the generic `walletConnectWallet` so that UXUY appears as a dedicated option. The generic WalletConnect option must remain available for other WalletConnect-compatible wallets.
 
-If your RainbowKit version uses `createConfig` instead of `getDefaultConfig`, pass the same `connectors`, `chains` and `transports` to `createConfig` and keep the custom wallet definition unchanged.
+Pin and test the RainbowKit and wagmi versions used by your DApp. The `getDefaultConfig` and custom-wallet APIs are version-sensitive; do not copy a configuration that passes `connectors` to `getDefaultConfig`.
 
 ### Reown AppKit (Web3Modal) configuration
 
@@ -241,6 +272,8 @@ AppKit's default wallet list is controlled by the WalletConnect directory. If UX
 
 Use this mode only when the DApp is already running inside the UXUY App browser. It is separate from the WalletConnect protocol flow and third-party SDK integration above.
 
+The methods shown here describe the injected EIP-1193 provider. They must not be copied into the WalletConnect wallet-side method whitelist: the current App WalletConnect whitelist is a separate contract and does not include `eth_accounts`, `eth_requestAccounts` or `eth_chainId`.
+
 ### Use the EIP-1193 provider in the App browser
 
 ```ts
@@ -266,6 +299,8 @@ const chainId = (await provider.request({
 ```
 
 Use wagmi hooks for application state where possible. Treat `4001` (user rejected) and `4900` (disconnected) as normal user-facing outcomes and allow the user to retry.
+
+`wallet_addEthereumChain` is not an arbitrary custom-chain registration mechanism in the current App implementation. It checks the App's known chain metadata and emits the supported-chain flow; do not promise that a DApp-supplied RPC configuration will be persisted.
 
 ## 3. Solana App browser integration (Phantom-compatible)
 
@@ -329,8 +364,15 @@ const provider = await UniversalProvider.init({
   },
 });
 
+// Register this before connect(): the first connection emits the pairing URI.
+provider.on('display_uri', (uri: string) => {
+  // Render a QR code with uri, or open UXUY on mobile:
+  // window.location.href = `uxuyapp://wc?uri=${encodeURIComponent(uri)}`;
+  console.log('WalletConnect URI:', uri);
+});
+
 await provider.connect({
-  namespaces: {
+  optionalNamespaces: {
     eip155: {
       chains: ['eip155:1', 'eip155:56', 'eip155:137'],
       methods: [
@@ -344,7 +386,11 @@ await provider.connect({
 });
 ```
 
-The exact Solana namespace and method support depends on the WalletConnect provider version and the UXUY App release. For Solana, prefer the Phantom-compatible provider in the UXUY App browser unless your integration has verified WalletConnect Solana support end to end.
+The provider must expose the `display_uri` value to a QR-code component or the UXUY deep link before the user can approve the first connection. Also subscribe to `session_update` and `session_delete` for a complete lifecycle.
+
+Use `requiredNamespaces` instead when the DApp cannot operate without the EVM namespace. Keep the requested methods and chains limited to the capabilities the DApp actually needs.
+
+The current UXUY App source contains Solana WalletConnect request handlers for the mainnet namespace, including account, message-signing, transaction-signing and broadcast paths. Release availability and end-to-end device verification are still required before describing these capabilities as production support. For App-browser Solana integration, use the Phantom-compatible provider described above.
 
 ## Error handling and security
 
@@ -353,7 +399,8 @@ The exact Solana namespace and method support depends on the WalletConnect provi
 - Do not reuse another DApp's WalletConnect project ID.
 - Encode the complete WalletConnect URI exactly once when building the UXUY deep link.
 - Do not treat a connected address as proof of identity without verifying a signature or using a suitable SIWx/SIWS flow.
-- A rejected request (`4001`) is not a connection failure that should be retried in a loop. Show a retry action instead.
+- Error codes are channel-specific: the current WalletConnect EVM and WalletConnect Solana request paths use `5001` for a rejected request, while the injected Solana App-browser provider uses `4001`. Confirm the exact App release behavior before hard-coding a single code in a DApp.
+- A rejected request is not a connection failure that should be retried in a loop. Show a retry action instead.
 - Test QR scanning, deep-link return, page refresh, account change, chain change and disconnect on both iOS and Android UXUY App versions.
 
 ## References

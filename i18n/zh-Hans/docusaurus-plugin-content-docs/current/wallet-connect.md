@@ -19,6 +19,8 @@ UXUY Wallet 当前是**仅 App 钱包**，不提供浏览器插件。因此，DA
 
 示例中的 WalletConnect Project ID 使用占位符。每个 DApp 都必须申请并使用自己的 Project ID，不要复制其他 DApp 的 Project ID。
 
+> **核验状态：** App 端源码审阅已确认部分协议入口，但正式发布版本的支持范围、生产链配置以及真机端到端测试仍待确认。下面的网络表和测试项是接入候选，不代表每个公开版本的 App 都已启用全部链和方法。
+
 ## 集成步骤
 
 1. 在 WalletConnect Cloud（Reown Dashboard）创建项目，并仅在自己的 DApp 中使用该 Project ID。
@@ -54,7 +56,7 @@ PC 浏览器不需要安装 UXUY 插件。即使没有检测到注入 Provider�
 
 ### 外部移动端 H5
 
-获得 WalletConnect URI 后，可以通过 UXUY 深链在 UXUY Wallet 中打开 DApp：
+获得 WalletConnect URI 后，可以通过 UXUY 深链打开 UXUY Wallet 并开始配对：
 
 ```ts
 export function openUxuyWallet(uri: string) {
@@ -77,7 +79,11 @@ export function openUxuyWalletWithFallback(uri: string) {
 }
 ```
 
-不要要求用户安装浏览器插件。深链的作用是打开 UXUY App，后续 DApp 仍在 App 内置浏览器中运行。
+当前 App 入口会解析 URI、开始配对并打开连接确认页，**不会**自动把外部 H5 DApp 打开到 App 内置浏览器中。只有原本从 UXUY WebView 发起的连接，成功后才会触发 WebView 恢复。外部 H5 流程在用户批准后，应明确提示用户手动返回 DApp。
+
+当前流程还要求用户已有 UXUY 登录态。如果用户未登录，App 可能不会在登录后保存并重放外部链接；对外发布一键登录流程前，必须先完成验证并写明实际行为。
+
+不要要求用户安装浏览器插件。深链只负责打开 UXUY App 并开始配对/确认流程。
 
 ## EVM 标准 SDK 接入（RainbowKit + wagmi + viem）
 
@@ -91,7 +97,7 @@ npm install @rainbow-me/rainbowkit wagmi viem @tanstack/react-query
 
 ### 配置支持的链
 
-以下网络可用于 UXUY 的 EVM 接入示例。图标地址来自 UXUY 网络元数据，也可以复制到自己的 CDN。
+以下 Chain ID 是当前 DApp 接入候选。UXUY 可用链来自运行时 DApp 链元数据，并会结合钱包地址能力进行过滤；在完成 App 发布配置以及签名、交易验证前，不应将该表理解为生产支持承诺。
 
 | Chain ID | 名称 | 网络 | 稳定币 | 图标 |
 | ---: | --- | --- | --- | --- |
@@ -148,7 +154,6 @@ export const robinhoodChain = {
 
 ```tsx
 import {
-  connectorsForWallets,
   getDefaultConfig,
   getWalletConnectConnector,
   type Wallet,
@@ -161,7 +166,7 @@ const projectId = 'YOUR_WALLETCONNECT_PROJECT_ID';
 const uxuyWallet = ({ projectId }: { projectId: string }): Wallet => ({
   id: 'uxuy',
   name: 'UXUY Wallet',
-  iconUrl: 'https://chain-cdn.uxuy.com/logo/square_288.png',
+  iconUrl: 'https://docs.uxuy.com/img/uxuy-wallet-icon.png',
   iconBackground: '#000000',
   // UXUY 没有浏览器插件，PC 端仍保留二维码连接。
   mobile: {
@@ -174,6 +179,28 @@ const uxuyWallet = ({ projectId }: { projectId: string }): Wallet => ({
   createConnector: getWalletConnectConnector({ projectId }),
 });
 
+const wallets = [
+  {
+    groupName: 'Recommended',
+    wallets: [uxuyWallet, walletConnectWallet],
+  },
+];
+
+export const config = getDefaultConfig({
+  appName: 'My DApp',
+  projectId,
+  chains: [mainnet, bsc, polygon, base, arbitrum],
+  wallets,
+  ssr: false,
+});
+```
+
+`getDefaultConfig` 接收钱包列表并自行构造 connectors。如果需要手动构造 connectors，应使用 `connectorsForWallets` 配合 wagmi 的 `createConfig`，并单独配置 transports：
+
+```tsx
+import { connectorsForWallets } from '@rainbow-me/rainbowkit';
+import { createConfig, http } from 'wagmi';
+
 const connectors = connectorsForWallets(
   [
     {
@@ -184,18 +211,22 @@ const connectors = connectorsForWallets(
   { appName: 'My DApp', projectId },
 );
 
-export const config = getDefaultConfig({
-  appName: 'My DApp',
-  projectId,
+export const config = createConfig({
   chains: [mainnet, bsc, polygon, base, arbitrum],
   connectors,
-  ssr: false,
+  transports: {
+    [mainnet.id]: http(),
+    [bsc.id]: http(),
+    [polygon.id]: http(),
+    [base.id]: http(),
+    [arbitrum.id]: http(),
+  },
 });
 ```
 
 将 `uxuyWallet` 放在通用 `walletConnectWallet` 之前，UXUY 就会在 UI 中显示为独立选项。通用 WalletConnect 入口仍应保留，以支持其他 WalletConnect 兼容钱包。
 
-如果使用的 RainbowKit 版本以 `createConfig` 为主，则将相同的 `connectors`、`chains` 和 `transports` 传给 `createConfig`，钱包定义无需改变。
+请锁定并测试 DApp 使用的 RainbowKit 和 wagmi 版本。`getDefaultConfig` 和 custom-wallet API 会随版本变化；不要复制将 `connectors` 传入 `getDefaultConfig` 的配置。
 
 ### Reown AppKit（Web3Modal）配置
 
@@ -241,6 +272,8 @@ AppKit 的默认钱包列表由 WalletConnect 目录控制。如果需要将 UXU
 
 仅当 DApp 已经在 UXUY App 内置浏览器中运行时使用此模式，与上面的 WalletConnect 协议流程和第三方 SDK 接入相互独立。
 
+下面的方法描述的是注入式 EIP-1193 Provider，不能复制到 WalletConnect 钱包侧的方法白名单中。当前 App 的 WalletConnect 白名单是独立约定，其中不包含 `eth_accounts`、`eth_requestAccounts` 或 `eth_chainId`。
+
 ### 在 App 内置浏览器中使用 EIP-1193 Provider
 
 ```ts
@@ -266,6 +299,8 @@ const chainId = (await provider.request({
 ```
 
 应用状态优先使用 wagmi hooks 管理。对于 `4001`（用户拒绝）和 `4900`（已断开）等结果，应给出可理解的提示和重试入口。
+
+当前 App 的 `wallet_addEthereumChain` 不是任意自定义链注册接口。它会检查 App 已知的链元数据并触发支持链流程，不应对外承诺会持久化 DApp 提供的任意 RPC 配置。
 
 ## 3. Solana App 浏览器内部接入（Phantom 兼容）
 
@@ -329,8 +364,15 @@ const provider = await UniversalProvider.init({
   },
 });
 
+// 必须在 connect() 前监听首次配对 URI。
+provider.on('display_uri', (uri: string) => {
+  // 将 uri 展示为二维码，或在移动端调用 UXUY 深链：
+  // window.location.href = `uxuyapp://wc?uri=${encodeURIComponent(uri)}`;
+  console.log('WalletConnect URI:', uri);
+});
+
 await provider.connect({
-  namespaces: {
+  optionalNamespaces: {
     eip155: {
       chains: ['eip155:1', 'eip155:56', 'eip155:137'],
       methods: [
@@ -344,7 +386,11 @@ await provider.connect({
 });
 ```
 
-Solana namespace 和方法支持情况取决于 WalletConnect Provider 版本及 UXUY App 版本。除非已经完成端到端验证，否则 Solana 优先使用 UXUY App 内置浏览器中的 Phantom 兼容 Provider。
+Provider 必须在 `connect()` 之前监听 `display_uri`，将首次配对 URI 展示为二维码，或调用 UXUY 深链。还应监听 `session_update` 和 `session_delete`，才能覆盖完整生命周期。
+
+如果 DApp 没有 EVM namespace 就无法运行，应改用 `requiredNamespaces`。请求的方法和链应限制在 DApp 实际需要的最小范围内。
+
+当前 UXUY App 源码已经包含 Solana WalletConnect mainnet namespace 的账户、消息签名、交易签名和广播处理，但正式发布版本和真机端到端支持仍待确认。App 内置浏览器中的 Solana 接入则使用上文的 Phantom 兼容 Provider。
 
 ## 错误处理与安全
 
@@ -353,7 +399,8 @@ Solana namespace 和方法支持情况取决于 WalletConnect Provider 版本及
 - 不要复用其他 DApp 的 WalletConnect Project ID。
 - 构造 UXUY 深链时，只对完整 WalletConnect URI 编码一次。
 - 不要把“已连接地址”直接当作身份凭证；应验证签名，或采用合适的 SIWx/SIWS 流程。
-- `4001`（用户拒绝）不是应该循环重试的连接故障，应提供手动重试入口。
+- 错误码必须按通道区分：当前 WalletConnect EVM 和 WalletConnect Solana 请求路径使用 `5001` 表示拒绝；注入式 Solana App Provider 使用 `4001`。对外文档发布前仍需确认具体 App 版本行为，不能统一假设为一个错误码。
+- 用户拒绝不是应该循环重试的连接故障，应提供手动重试入口。
 - 在 iOS 和 Android 的 UXUY App 版本上测试二维码扫描、深链返回、刷新页面、账户切换、链切换和断开连接。
 
 ## 参考资料
