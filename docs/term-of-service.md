@@ -5,339 +5,178 @@ sidebar_position: 9
 
 # Terms of Service
 
-These terms of service are effective as of October 1, 2025.
+These terms of service are effective as of November 24, 2026.
 
-Thank you for your interest in UXUY. These terms of service, together with any documents and additional terms they incorporate by reference (collectively, these "Terms"), are entered into between UXUY Service and any of its subsidiaries or affiliates (collectively, "**UXUY**," "**we**," "**us**," and "**our**") and you or the company or other legal entity that you represent ("**you**" or "**your**").
+When you use uxuy.com, the UXUY app or their trading interfaces (the "Platform"), you enter into these Terms of Service (the "Terms") with Forward Thinking Limited, a Cayman Islands company formerly named UXUY Limited ("UXUY", "we" or "us"). These Terms cover the features we make available through the Platform (the "Services"). If you act for an entity, you confirm that you can bind it and "you" includes that entity.
 
-Please read these Terms carefully as they govern your use of our website located at our Site https://uxuy.com (the "Site"), and use of the products, features, content, applications, or services we provide (collectively with the Site, the "Services"). These terms describe your rights and obligations and our disclaimers and limitations of legal liability. By accessing or using our Site or our Services, you accept and agree to be bound by and to comply with these Terms, including the mandatory arbitration provision in Section 11. If you do not agree to these Terms, you must not access or use our Site or the Services. Please carefully review the disclosures and disclaimers set forth in Section 8 in their entirety before using any software developed by UXUY.
+Eligible users can use the Platform's self-custodial wallet and unified stablecoin account to trade supported crypto assets, trade third-party equity tokens linked to US or Hong Kong shares, and trade perpetual contracts on UXUY PerpDex. Eligible users can also provide liquidity to its ULP pool. The Services available to you depend on the product, your location and your account.
 
-You must be able to form a legally binding contract online either on behalf of a company or as an individual. Accordingly, you represent that, if you are agreeing to these Terms on behalf of a company or other legal entity, you have the legal authority to bind the company or other legal entity to these Terms and you are at least 18 years old (or the age of majority where you reside, whichever is older), can form a legally binding contract online, and have the full, right, power and authority to enter into and to comply with the obligations under these Terms.
+By using the Services, you agree to these Terms. You must be at least 18, have reached the age of majority where you live and have capacity to enter into a contract. Read Sections 2, 7 and 9 before trading. Section 13 includes individual arbitration and explains how to opt out.
 
-Additionally, you represent and warrant that you are not a citizen or resident of a state, country, territory, or other jurisdiction that is embargoed by Singapore or where your use of the Site or the Services would be illegal or otherwise violate any domestic or foreign law, rule, statute, regulation, by-law, order, protocol, code, decree, or other directives, requirement or guideline, published or in force which applies to or is otherwise intended to govern or regulate any person, property, transaction, activity, event or other matter, including any rule, order, judgment, directive or other requirement or guideline issued by any domestic or foreign federal, provincial or state, municipal, local or other governmental, regulatory, judicial or administrative authority having jurisdiction over UXUY, you, the Site or the Services, or as otherwise duly enacted, enforceable by law, the common law or equity ("**Applicable Law**").
-
-## 1. MODIFICATIONS TO THESE TERMS
-
-We reserve the right, in our sole discretion, to modify these Terms from time to time. If we make changes, we will provide you with notice of such changes by sending an email, providing a notice through the Site or our Services or updating the date at the top of these Terms. Unless we say otherwise in our notice, any modifications are effective immediately, and your continued use of the Site or our Services will confirm your acceptance of the changes. If you do not agree to the amended terms, you must stop using our Services.
-
-## 2. SERVICES
-
-The "UXUY smart contracts" are publicly available open-source software programs deployed on the Ethereum blockchain that facilitate the peer-to-peer exchange of Ethereum-based tokens.
-
-UXUY develops software through which users and developers can interact with the UXUY smart contracts. The primary purpose of the Site is to enable users to access and utilize the UXUY smart contracts and UXUY software products as well as to provide resources and information, including, without limitation, developer documentation, product examples, and other related services (all of which are covered under the definition of "Services").
-
-The "UXUY network" is comprised of all users, companies, applications, and any other device, service, or person interacting in any way, directly or indirectly, with the UXUY smart contracts on the Ethereum blockchain, including UXUY's Services. The term UXUY network should be interpreted as broadly as possible to include anything that may be reasonably considered to be part of the network as that term is construed in normal use.
-
-Some Services are offered by us or other participants in the UXUY network require payment or otherwise involve the use of an underlying blockchain or other decentralized or permissioned infrastructure (the "Distributed Ledger Technology"), which may require that you pay a fee, such as "gas" charges on the Ethereum network, for the computational resources required to perform a transaction on the particular Distributed Ledger Technology (such payments and fees, "Charges").
-
-You acknowledge and agree that UXUY has no control over any Distributed Ledger Technology transactions, the method of payment of any Charges, if applicable, or any actual payments of Charges, if applicable. Accordingly, you must ensure that you have a sufficient balance of the applicable Distributed Ledger Technology network tokens stored at your Distributed Ledger Technology-compatible wallet address ("Distributed Ledger Technology Address") to complete any transaction on the UXUY network or the Distributed Ledger Technology before initiating such transaction.
-
-As a condition to accessing or using the Services or the Site, you: (i) will only use the Services and the Site for lawful purposes and in accordance with these Terms; (ii) will ensure that all information that you provide on the Site is current, complete, and accurate; (iii) will maintain the security and confidentiality of access to your Distributed Ledger Technology Address; and (iv) agree (A) that no Protected Party (defined below) will be responsible for any loss or damage incurred as the result of any interactions you have with other users of the Site, Services or the UXUY network, including any loss of the tokens issued in the future by UXUY, any other tokens or other unit of value; and (B) if there is a dispute between you and any other site or other user, no Protected Party will be under any obligation to become involved.
-
-As a condition to accessing or using the Site or the Services, you will not: (i) Violate any Applicable Law, including, without limitation, any relevant and applicable anti-money laundering and anti-terrorist financing laws and any relevant and applicable privacy and data collection laws, in each case, as may be amended; (ii) Export, re-export, or transfer, directly or indirectly, any UXUY technology in violation of applicable export laws or regulations; (iii) Infringe on or misappropriate any contract, intellectual property, or another third-party right, or commit a tort while using the Site or the Services; (iv) Misrepresent the truthfulness, sourcing or reliability of any content on the Site or through the Services; (v) Use the Site or Services in any manner that could interfere with, disrupt, negatively affect, or inhibit other users from fully enjoying the Site, Services or the UXUY network or that could damage, disable, overburden, or impair the functioning of the Site, Services or the UXUY network in any manner; (vi) Attempt to circumvent any content filtering techniques or security measures that UXUY employs on the Site or the Services, or attempt to access any service or area of the Site or the Services that you are not authorized to access; (vii) Use any robot, spider, crawler, scraper, or other automated means or interface not provided by us, to access the Site or Services or to extract data; (viii) Introduce any malware, virus, Trojan horse, worm, logic bomb, drop-dead device, backdoor, shutdown mechanism or other harmful material into the Site or the Services; (ix) Post content or communications on the Site or through the Services that are, in our sole discretion, libelous, defamatory, profane, obscene, pornographic, sexually explicit, indecent, lewd, vulgar, suggestive, harassing, hateful, threatening, offensive, discriminatory, bigoted, abusive, inflammatory, fraudulent, deceptive or otherwise objectionable; (x) Post content on the Site or through the Services containing unsolicited promotions, political campaigning, or commercial messages or any chain messages or user content designed to deceive or trick the user of the Service; or (xi) Encourage or induce any third party to engage in any of the activities prohibited under these Terms.
-
-## 3. PRIVACY POLICY
-Please refer to our privacy policy for information about how we collect, use, share and
-otherwise process information about you.
-
-## 4. CHANGES; SUSPENSION; TERMINATION
-The UXUY Network is intended to be decentralized and self-operating, with or without any
-Services provided by UXUY. Accordingly, we may, at our sole discretion, from time to time
-and with or without prior notice to you, modify, suspend or disable, temporarily or
-permanently, the Services offered by UXUY, in whole or in part, for any reason whatsoever,
-including, but not limited to, as a result of a security incident.
-
-We will not be liable for any losses suffered by you resulting from any modification to any
-Services or from any suspension or termination, for any reason, of your access to all or any
-portion of the Site or the Services.
-
-All of these terms will survive any termination of your access to the Site or the Services,
-regardless of the reasons for its expiration or termination, in addition to any other provision
-which by law or by its nature should survive.
-
-
-## 5. ELECTRONIC NOTICES
-You consent to receive all communications, agreements, documents, receipts, notices, and
-disclosures electronically (collectively, our “Communications”) that we provide in connection
-with these Terms or any Services. You agree that we may provide our Communications to
-you by posting them on the Site or through the Services or by emailing them to you at the
-email address you provide in connection with using the Services. You should maintain copies
-of our communications by printing a paper copy or saving an electronic copy. You may also
-contact our support team to request additional electronic copies of our Communications by
-filing a support request at  legal@uxuy.com.
+## Eligibility and geographic restrictions
 
+The Platform and its Services are unavailable to anyone located or resident in a restricted jurisdiction. This restriction covers trading or routing orders through the Platform, using the Platform's cross-chain stablecoin routing through uPool, trading third-party equity tokens or perpetual contracts, and providing liquidity to ULP through the Platform. An entity is also ineligible if it is incorporated, has its registered office or has its principal place of business in a restricted jurisdiction.
 
-## 6. INDEMNIFICATION
-You will defend, indemnify, and hold harmless UXUY, our affiliates, and our affiliates’
-respective shareholders, members, directors, officers, employees, attorneys, agents,
-representatives, suppliers, licensors, and contractors (collectively, “Protected Parties”) from
-any claim, demand, lawsuit, action, proceeding, investigation, liability, damage, loss, cost or
-expense, including without limitation reasonable attorneys’ fees, arising out of or relating to
-your use of, or conduct in connection with, the Site, Services, the UXUY Network, Distributed
-Ledger Technology assets associated with your Distributed Ledger Technology Address, any
-other digital assets, any Feedback or Your Content; your violation of these Terms; your
-violation of applicable laws or regulations; or your infringement or misappropriation of the
-rights of any other person or entity. If you are obligated to indemnify any Protected Party,
-UXUY (or, at its discretion, the applicable Protected Party) will have the right, in its solediscretion, to control any action or proceeding and to determine whether UXUY wishes to
-settle, and if so, on what terms.
+Restricted jurisdictions are Belarus, Canada, China, Cuba, Iran, Myanmar, North Korea, Russia, Singapore, Sudan, Syria, Taiwan, Ukraine (including Crimea, Donetsk, Luhansk and Sevastopol), the United Kingdom, the United States, Venezuela, the Federated States of Micronesia, Guam, the Marshall Islands, the Northern Mariana Islands, Palau, Puerto Rico, the United States Minor Outlying Islands, the United States Virgin Islands and all member states of the European Economic Area (EEA).
 
-## 7. DISCLOSURES; & DISCLAIMERS
-UXUY is primarily a developer of open-source software. UXUY does not operate a virtual
-currency or derivatives exchange platform or offer trade execution or clearing services and
-therefore has no oversight, involvement, or control with respect to your transactions,
-including existing or future token purchases and sales.
+You must also comply with laws, sanctions and export controls applicable to you and your use of the Services ("Applicable Law"). You may not use the Services if that use is unlawful, if you are subject to sanctions prohibiting it, or if you are a citizen or resident of a jurisdiction subject to an applicable Singapore embargo. You must not disguise your location or act through another person to bypass a restriction. We may use geolocation and other access controls to restrict your access to the Platform or to particular Services. A Service is also unavailable wherever it requires a regulatory authorization that UXUY does not hold.
 
-You are responsible for complying with all laws and regulations applicable to your
-transactions, including, but not limited to, the Commodity Exchange Act and the regulations
-promulgated thereunder by the U.S. Commodity Futures Trading Commission (“CFTC”), the
-Bank Secrecy Act and the regulations promulgated thereunder by the Financial Crimes
-Enforcement Network (“FinCEN”), and the federal securities laws and the regulations
-promulgated thereunder by the U.S. Securities and Exchange Commission (“SEC”).
+A particular market or product may have additional eligibility requirements under its own rules or the issuer's terms. A listing, displayed price or accessible screen does not establish your eligibility to trade. Holding an asset that can be traded through the Platform does not, by itself, make you eligible to use the Platform or any particular Service.
 
-You understand that UXUY is not registered or licensed by the CFTC, SEC, FinCEN, or any
-financial regulatory authority. No financial regulatory authority has reviewed or approved
-the use of the UXUY open-source software or Services. This Site and the Services do not
-constitute advice or a recommendation concerning any commodity, security, or other assets.
-UXUY is not acting as an investment adviser or commodity trading adviser to any person.
+## General Disclaimer on Geographic Restrictions for Future Token Utilities
 
-UXUY does not have the ability to modify or control in any manner the code underlying the
-smart contract. The ability to modify the UXUY smart contracts is managed by a multi-
-signature wallet currently controlled by UXUY and described in more detail here. In general,
-the underlying protocols are open-source and anyone can use, copy, modify, and distribute
-them. UXUY is not responsible for the operation of the underlying protocols such as
-Ethereum, and UXUY makes no guarantee of its functionality, security, or availability.
+If a UXUY platform token is issued in the future, access to any associated Platform features, such as trading fee discounts or execution priority, will depend on your jurisdiction and the eligibility requirements for each feature. If the geographic restrictions above make you ineligible to use the Platform, you cannot use features that require Platform access. Under the current restrictions, this includes anyone located or resident in the European Economic Area (EEA). Holding the token or being able to acquire it through a third party does not, by itself, make you eligible to use any such feature. Changes in Applicable Law or regulatory requirements may expand or restrict the features available in your jurisdiction. Before purchasing or otherwise acquiring the token, review the current version of these Terms, including the geographic restrictions above and any applicable feature-specific terms, to determine which features, if any, are available to you.
 
-To the maximum extent permitted under Applicable Law, the Site and the Services (and any
-of their content or functionality) provided by or on behalf of us are provided on an “AS IS”
-and “AS AVAILABLE” basis, and we expressly disclaim, and you hereby waive, any
-representations, conditions or warranties of any kind, whether express or implied, legal,
-statutory or otherwise, or arising from statute, otherwise in law, course of dealing, or usage
-of trade, including, without limitation, the implied or legal warranties and conditions of
-merchantability, merchantable quality, quality or fitness for a particular purpose, title,
-security, availability, reliability, accuracy, quiet enjoyment and non-infringement of third
-party rights. Without limiting the foregoing, we do not represent or warrant that the Site or
-the Services (including any related data) will be uninterrupted, available at any particular
-time or error-free. Further, we do not warrant that errors in the Site or the Service are
-correctable or will be corrected.
+## 1. Changes to these Terms
 
-You acknowledge that your data on the Site or through the Services may become
-irretrievably lost or corrupted or temporarily unavailable due to a variety of causes, and
-agree that, to the maximum extent permitted under Applicable Law, we will not be liable for
-any loss or damage caused by denial-of-service attacks, software failures, viruses or other
-technologically harmful materials (including those which may infect your computer
-equipment), protocol changes by third-party providers, Internet outages, force majeure
-events or other disasters, scheduled or unscheduled maintenance, or other causes either
-within or outside our control.
+We may revise these Terms and give notice on the Platform or by email. The notice will identify when the changes take effect. Continued use after that date constitutes acceptance, subject to any additional notice or consent required by Applicable Law. If you disagree with a change, stop using the Services.
 
-The disclaimer of implied warranties contained in these Terms may not apply if and to the
-extent such warranties cannot be excluded or limited under the Applicable Law of the
-jurisdiction in which you reside.
+## 2. Services and user responsibilities
 
+### 2.1 Wallet access and recovery
 
-## 8. EXCLUSION OF CONSEQUENTIAL AND RELATED DAMAGES
-In no event will the Company, together with any Protected Party, be liable for any incidental,
-indirect, special, punitive, exemplary, consequential or similar damages or liabilities
-whatsoever (including, without limitation, damages for loss of data, information, revenue,
-goodwill, profits or other business or financial benefit) arising out of or in connection with
-the Site, the Services, and the UXUY Network (and any of their content and functionality),
-any execution or settlement of a transaction, any performance or nonperformance of the
-Services, your Distributed Ledger Technology assets, other digital assets, or any other
-product, service, or other item provided by or on behalf of a Protected Party, whether under
-contract, tort (including negligence), civil liability, statute, strict liability, breach of
-warranties, or under any other theory of liability, and whether or not any Protected Party
-has been advised of, knew of or should have known of the possibility of such damages and
-notwithstanding any failure of the essential purpose of these Terms or any limited remedy
-nor is UXUY in any way responsible for the execution or settlement of transactions between
-users of UXUY open-source software or the UXUY Network.
+You control the keys to your self-custodial smart account (uAccount). Signing in gives you access to the Platform. Transactions require your signature or a permission you have granted. Funds committed as margin or supplied to a liquidity pool are subject to the use and withdrawal conditions of the relevant product.
 
+Protect your device, credentials and any recovery material required by your wallet version. Check that you can use the recovery method before losing access to a device. Depending on the account, a backup, recovery phrase or another authentication factor may be necessary. Losing access to required material can make assets permanently inaccessible. UXUY cannot reverse a confirmed blockchain transfer. Any recovery tool works only for the accounts, networks and errors it supports.
 
-## 9. ACCESS TO THIRD-PARTY DERIVATIVES PROTOCOLS
+Before transferring assets, check the asset, network and receiving address for the account you intend to fund. A transfer to an incorrect address or contract, or over an unsupported network, may be unrecoverable.
 
-UXUY provides an interface that may enable users to access decentralized derivatives or perpetual contract trading protocols. These protocols are developed and operated independently by third parties. UXUY does not control, maintain, operate, or act as a counterparty to any transactions conducted through these protocols.
+### 2.2 Connections and spending permissions
 
-### Non-Custodial Interface Only
+A wallet connection to a decentralised application, including one made through WalletConnect where supported, can share your public address and let the application request signatures. Before signing, review the requesting application, recipient or spender, network, amount and any expiry. A spending allowance or delegated permission can authorize later transfers within its limits without a new signature for every use.
 
-UXUY acts solely as a non-custodial interface provider. We do not execute trades, custody funds, or provide clearing or settlement services. Any interaction with third-party trading protocols is initiated directly by you, and your wallet interacts with those protocols on a peer-to-protocol basis.
+Disconnecting an app ends the connection but may leave an existing on-chain allowance in force. If you want to end that allowance, revoke it on the applicable network. A revocation can incur a fee, takes effect only once confirmed and cannot undo a transfer already made.
 
-### User Responsibilities
+### 2.3 Spot trading, swaps and stablecoin transfers
 
-You are solely responsible for ensuring that your use of derivatives-related functionality is lawful under the laws of your jurisdiction. Access to such features may be restricted in certain regions by law or by the technical configuration of the underlying protocols. You must comply with any applicable legal and technical requirements.
+Before authorizing a trade, review the assets, the quoted price, the expected amount you will receive, the applicable fees and any slippage limit. Market information does not guarantee the safety of an asset or that you will be able to sell it.
 
-### Fees and Risks
+For trades you authorize, UXUY's execution engine may construct an execution plan and route the trade to a supported external liquidity venue or to UXUY PerpDex, depending on the product you select. The engine operates within the permissions you grant and the transaction limits applicable to your instruction, including any applicable slippage tolerance or limit price.
 
-UXUY does not charge or collect any trading fees related to your use of third-party derivatives protocols. Any trading fees, funding rates, or penalties are determined and handled by the underlying protocol. You assume full responsibility for understanding the risks of derivatives trading, including the risk of financial loss, liquidation, slippage, or technical failure.
+When a transaction uses uPool's cross-chain stablecoin liquidity, the relevant smart contract holds the funds in transit. Confirmation on the source network may precede receipt on the destination network. You may be unable to use those funds before settlement on the destination network. If settlement is interrupted, whether and when the funds can be recovered depends on the applicable contract and the state of the networks involved.
 
-### No Warranties or Guarantees
+A balance expressed in US dollars shows the value of the supported assets in that currency. The denomination alone does not give you a right to redeem those assets with UXUY for fiat US dollars. Before confirming a conversion, check the asset you will receive, the applicable network, the exchange rate and the fees. A quote may change or cease to be available.
 
-UXUY makes no representations or warranties regarding the availability, performance, or accuracy of any third-party protocol accessed via the Services. Your use of such features is entirely at your own risk.
+For eligible transactions, a paymaster covers the network fee on your behalf, so you do not need to hold the network's native asset to pay that fee. Eligibility depends on the transaction type, supported networks, minimum amount and daily quota set out in the GasLess Rules. Where those rules give an existing native-token balance priority, the network fee may be paid from that balance. US and Hong Kong equity token trading is excluded from GasLess. Review applicable charges before authorizing a transaction. Trading fees, spreads and conversion costs may still apply.
 
-## 10. COPY TRADING DISCLAIMER
+#### Acceptable use
 
-### Eligibility
+Use only funds you are authorized to transact with. Provide accurate information. Do not misuse market data, manipulate markets, infringe others' rights, disrupt the Services, bypass security or access controls, or facilitate fraud, money laundering, terrorist financing, unlawful exports, spam or unauthorized data scraping.
 
-Users must meet the investor qualification requirements under the laws and regulations of their jurisdiction. The Platform does not undertake any responsibility to review or confirm your eligibility.
+### 2.4 US and Hong Kong equity tokens
 
-You must be at least 18 years old, have full civil capacity, and possess sufficient knowledge and experience to understand the nature and risks of the products traded.You represent that you are the lawful owner of the funds in your UXUY account, and you guarantee that the source of such funds or digital assets is legitimate and will not be used for any unlawful purpose through the Platform.
+Eligible users can trade third-party equity tokens linked to shares listed in the United States or Hong Kong. The listed company is the issuer of the referenced shares. A reference to that company does not, by itself, imply that it issued or endorsed the token. UXUY provides access to trading. Third-party issuers issue the tokens, and third-party custodians hold the underlying shares. UXUY does not issue or redeem the tokens or act as custodian of the underlying shares.
 
-### Trading Services
+#### Orders and positions
 
-The Platform only provides technical tools and information display. It does not constitute any form of investment advice, asset management, or fiduciary trading. You should carefully assess the authenticity, legality, and validity of any virtual currency/digital asset information and assume all risks and losses arising therefrom.
+Before placing an order, check the instrument, quantity, applicable trading hours and fees. Orders may be rejected, partially filled or remain unfilled as prices and liquidity change. A position in an equity token does not, by itself, register you as a shareholder of the referenced company.
 
-Unless expressly required by law, the Platform has no obligation to conduct prior review of all user information, digital asset information, trading activities, or other related matters.
+#### Rights attached to a token
 
+The instrument's terms and Applicable Law determine any backing or security interest, the treatment of dividends, splits, rights issues and other corporate actions, and any voting, delivery or insolvency rights. These rights can differ across instruments. Holding a token does not by itself entitle you to the same distributions or remedies as a registered shareholder. You may bear issuer or custody risk even if the referenced share retains value.
 
-### Disputes and Legal Obligations
+#### Selling a position
 
-If disputes arise between you and other users during the use of copy trading services, and either party or both parties jointly request mediation by the Platform, the Platform has the right to make a determination at its sole discretion, and you agree to accept the Platform's judgment and outcome.
+A sell order seeks an execution against available liquidity. UXUY does not promise to buy back your token or deliver shares. Any separate redemption right exists only to the extent provided by the terms of that instrument and is subject to their eligibility, settlement and other conditions.
 
-Such mediation does not preclude your right to file a lawsuit or arbitration with competent authorities.
+#### Sessions and currencies
 
-You acknowledge and agree that the Platform may provide your user information and transaction records to governmental authorities (including judicial and administrative agencies) upon their request.
+Trading hours, liquidity and settlement arrangements vary by instrument. When the underlying market is closed or trading is halted, prices may be stale and spreads may widen. Check the currency of the quote and the asset used for settlement. Where conversion is required, the exchange rate and applicable fees affect what you pay or receive.
 
-If you are suspected of infringing the intellectual property rights or other legitimate rights of others, the Platform, upon its preliminary determination of potential infringement or illegality, has the right to provide your necessary identity information to the rights holder or relevant authorities.
+## 3. Privacy
 
-### Disclaimer of Liability
+Our Privacy Policy describes what we collect, how we use and disclose it and how to contact us about your rights. Transactions recorded on a public blockchain may be visible to others.
 
-You acknowledge and agree that the Platform shall not be liable for any damages (including but not limited to loss of profits, goodwill, use, or data) arising from, among other things:
+## 4. Changes to Services and access
 
-- Losses from copy trading strategies
-- Delays, failures, or deviations in automated trade execution
-- Liquidations or losses caused by extreme market volatility
-- System failures, network interruptions, hacking, or other force majeure events
-- The Platform's reasonable determination that certain users or trading activities may involve significant illegality or breach
-- The Platform's reasonable determination that a user's conduct may be unlawful or improper
-- Costs and losses arising from the purchase or use of information, services, or transactions through the Platform
-- Misunderstanding of copy trading services
-- Any loss not attributable to the Platform
-- Any partial or total loss resulting from your direct or indirect participation in copy trading
+We may change a feature, remove support for an asset or network, or suspend or end access to all or part of the Platform. We may act immediately to address an incident or comply with law. Loss of access to an interface can make it harder to manage an open position. It does not itself close the position, revoke an existing on-chain permission or cancel a confirmed transaction.
 
-### Risks of Copy Trading
+Accrued obligations and terms that by their nature apply after access ends continue to apply, including provisions on liability and disputes. Applicable Law governs any liability we have for a suspension or interruption.
 
-Risks associated with copy trading include, but are not limited to:
+## 5. Electronic notices
 
-- Automated trade execution, where your account may open or close positions without manual intervention
-- Trade delays that may increase costs
-- Execution failures of copy trades
-- Risks from traders or strategies you copy that may exceed the funds you allocated
+You agree to receive notices electronically through the Platform or at the email address you supply. Keep a copy of notices relevant to you. To request a copy or send a legal notice to UXUY, write to legal@uxuy.com.
 
-The copy trading function provided by the Platform is for reference only. All investment decisions are made at your own risk.
+## 6. Indemnity
 
-You should independently assess whether such investment is suitable in light of your objectives and financial situation.
-
-You are solely responsible for any losses resulting from the automatic execution of trades using the copy trading function.
-
-All trading data and activity displayed by the Platform are for informational purposes only and do not constitute investment advice.
-
-The Platform reserves the final right of interpretation of this Section to the extent permitted by law.
+To the extent permitted by Applicable Law, you will defend and indemnify UXUY, its affiliates and their officers, directors, owners, employees, agents, advisers, suppliers, licensors and contractors (the "Protected Parties") against claims, losses and reasonable legal costs arising from your use of the Services, content you submit, breach of these Terms or Applicable Law, or infringement of another person's rights. The affected Protected Party may control the defence and settlement of a covered claim.
 
+## 7. Disclosures and risks
 
-## 11. LIMITATION OF LIABILITY
-In no event will the Protected Parties' aggregate liability arise out of or in connection with
-the Site, the Services, and the UXUY Network (and any of their content and functionality),
-any performance or nonperformance of the Services, your Distributed Ledger Technology
-assets, other digital assets, or any other product, service, or other item provided by or on
-behalf of a Protected Party, whether under contract, tort (including negligence), civil liability,
-statute, strict liability or other theory of liability exceed the amount of fees paid by you to us
-under these Terms in the twelve (12) month period immediately preceding the event giving
-rise to the claim for liability.
+Trading and liquidity provision can result in loss of all assets committed. Stablecoins can lose their peg. Thin liquidity, price changes, delayed networks, cross-chain failures, inaccurate oracle data and smart-contract defects can affect execution or delay access to funds. A transaction confirmed on-chain may be irreversible.
 
-## 12. RELEASE
-To the extent permitted by applicable law, in consideration for being allowed to use the Site, the Services, and/or the UXUY Network, you hereby release and forever discharge the Company and all Protected Parties from and hereby waive and relinquish, each and every past, present, and future dispute, claim, controversy, demand, right, obligation, liability, action, and cause of action of every kind and nature (including personal injuries, death, and property damage), that has arisen or arises directly or indirectly out of, or that relates directly or indirectly to, the Site, the Services and/or the UXUY Network (including any interactions with, or act or omission of, other Site or UXUY Network users or any third-party services). YOU HEREBY WAIVE ANY APPLICABLE PROVISION IN LAW OR REGULATION IN CONNECTION WITH THE FOREGOING, WHICH STATES IN SUBSTANCE: “A GENERAL RELEASE DOES NOT EXTEND TO CLAIMS WHICH THE CREDITOR DOES NOT KNOW OR SUSPECT TO EXIST IN HIS OR HER FAVOR AT THE TIME OF EXECUTING THE RELEASE, WHICH IF KNOWN BY HIM OR HER MUST HAVE MATERIALLY AFFECTED HIS OR HER SETTLEMENT WITH THE DEBTOR.
+UXUY supplies the functions described in Sections 2 and 9. Independent networks, venues, oracles and issuers control their own services. Some contracts have administrative permissions, which may include changing parameters, upgrading code or pausing a function. The available powers and their effects depend on the particular contract.
 
+Perpetual contracts and related derivatives may be subject to financial services laws, including the Markets in Financial Instruments Directive (MiFID II) in the European Economic Area. Depending on the rights attached to the product and Applicable Law, equity tokens issued by third parties may qualify as financial instruments, including transferable securities under MiFID II. Offering these products or providing related trading services may require regulatory authorization. See the eligibility requirements and geographic restrictions in these Terms.
 
-## 13. DISPUTE RESOLUTION AND ARBITRATION
-Please read the following section carefully because it requires you to arbitrate certain
-disputes and claims with UXUY and limits the manner in which you can seek relief from us,
-unless you opt out of arbitration by following the instructions set forth below. In addition,
-arbitration precludes you from suing in court or having a jury trial.
+A third party's licence covers only its own authorized activities. A product listing does not imply regulatory approval of UXUY or the product. General market data, commentary and tools on the Platform do not constitute personalised investment, legal or tax advice. Services and market data are provided as available. To the extent permitted by Applicable Law, the Protected Parties disclaim implied warranties, including fitness for a particular purpose, accuracy, availability and non-infringement. You retain any rights or remedies that Applicable Law makes mandatory.
 
-You and UXUY agree that any dispute arising out of or related to these Terms or our Services
-is personal to you and UXUY and that any dispute will be resolved solely through individual
-action, and will not be brought as a class arbitration, class action or any other type of
-representative proceeding.
+## 8. Exclusion of certain damages
 
-Except for small claims disputes in which you or UXUY seeks to bring an individual action in
-small claims court located in the county or other applicable jurisdiction where you reside or
-disputes in which you or UXUY seeks injunctive or other equitable relief for the alleged
-unlawful use of intellectual property, you and UXUY waive your rights to a jury trial and to
-have any dispute arising out of or related to these Terms or our Services resolved in court.
-Instead, for any dispute or claim that you have against UXUY or relating in any way to the
-Services, you agree to first contact UXUY and attempt to resolve the claim informally by
-sending a written notice of your claim (“Notice”) to UXUY by email at legal@uxuy.com. The
-Notice must include your name, residence address, email address, and telephone number,
-describe the nature and basis of the claim, and set forth the specific relief sought. Our notice
-to you will be similar in form to that described above. If you and UXUY cannot reach an
-agreement to resolve the claim within thirty (30) days after such Notice is received, then
-either party may submit the dispute to binding arbitration administered by the JAMS, or,
-under the limited circumstances set forth above, in court. All disputes submitted to JAMS
-will be resolved through confidential, binding arbitration before one arbitrator. Arbitration
-proceedings will be held in California, in accordance with the JAMS Comprehensive
-Arbitration Rules & Procedures (“JAMS Rules”). The most recent version of the JAMS Rules
-are available on the JAMS Site and are hereby incorporated by reference. You either
-acknowledge and agree that you have read and understand the JAMS Rules or waive your
-opportunity to read the JAMS Rules and waive any claim that the JAMS Rules are unfair or
-should not apply for any reason.
+To the extent permitted by Applicable Law, the Protected Parties will not be liable for indirect, incidental, special, punitive or consequential loss, including lost profits, revenue, goodwill or data arising from the Services, regardless of the legal basis of a claim or whether the loss was foreseeable. Section 11 addresses the limit on aggregate liability.
 
-You and UXUY agree that the enforceability of this Section 11 will be substantively and
-procedurally governed by the Federal Arbitration Act, 9 U.S.C. § 1, et seq. (the “FAA”), to the
-maximum extent permitted by applicable law. As limited by the FAA, these Terms and the
-AAA Rules, the arbitrator will have exclusive authority to make all procedural and
-substantive decisions regarding any dispute and to grant any remedy that would otherwise
-be available in court, including the power to determine the question of arbitrability. The
-arbitrator may conduct only an individual arbitration and may not consolidate more than
-one individual’s claims, preside over any type of class or representative proceeding or
-preside over any proceeding involving more than one individual.
+## 9. UXUY PerpDex and the ULP liquidity pool
 
-The arbitrator, UXUY, and you will maintain the confidentiality of any arbitration
-proceedings, judgments and awards, including, but not limited to, all information gathered,
-prepared and presented for purposes of the arbitration or related to the disputes. The
-arbitrator will have the authority to make appropriate rulings to safeguard confidentiality,
-unless the law provides to the contrary. The duty of confidentiality does not apply to the
-extent that disclosure is necessary to prepare for or conduct the arbitration hearing on the
-merits, in connection with a court application for a preliminary remedy or in connection with
-a judicial challenge to an arbitration award or its enforcement, or to the extent that
-disclosure is otherwise required by law or judicial decision.
+### The market and your collateral
 
+UXUY PerpDex is the Platform's on-chain perpetual futures market. A perpetual position gives you exposure to changes in the price of the underlying asset. You can trade from your unified stablecoin balance and must have sufficient available margin to open a position. Margin and profit or loss are settled in a USD stablecoin. ULP provides base liquidity and acts as a counterparty to trades. Third-party market makers may provide additional liquidity, and hedging providers may offset the pool's directional exposure on external markets.
 
-You and UXUY agree that for any arbitration you initiate, you will pay the filing fee and UXUY
-will pay the remaining AAA fees and costs. For any arbitration initiated by UXUY, UXUY will
-pay all AAA fees and costs. You and UXUY agree that the courts of Germany have exclusive
-jurisdiction over any appeals and the enforcement of an arbitration award.
-Any claim arising out of or related to these Terms or our Services must be filed within one
-year after such claim arose; otherwise, the claim is permanently barred, which means that
-you and UXUY will not have the right to assert the claim.
+### Prices and orders
 
+The protocol uses a mark price derived from multiple oracle sources to calculate unrealized profit or loss and assess whether a position meets maintenance margin requirements. Orders execute at available market prices, which may differ from the mark price. If the oracle sources fail or diverge too far, the protocol restricts new positions and pauses liquidations until reliable pricing resumes. Where conditional orders are supported, a trigger does not guarantee execution or a particular fill price. Section 2.3 describes the limits on trade routing.
 
-You have the right to opt out of binding arbitration within 30 days of the date you first
-accepted the terms of this Section 11 by emailing us at legal@uxuy.com. In order to be
-effective, the opt-out notice must include your full name and address and clearly indicate
-your intent to opt-out of binding arbitration. By opting out of binding arbitration, you are
-agreeing to resolve disputes in accordance with Section 11.
+### Fees and funding
 
-If any portion of this Section 11 is found to be unenforceable or unlawful for any reason, the
-unenforceable or unlawful provision will be severed from these Terms, severance of the
-unenforceable or unlawful provision will have no impact whatsoever on the remainder of
-this Section 11 or the parties’ ability to compel arbitration of any remaining claims on an
-individual basis under this Section 11, and to the extent that any claims must therefore
-proceed on a class, collective, consolidated, or representative basis, such claims must be
-litigated in a civil court of competent jurisdiction and not in arbitration, and the parties
-agree that litigation of those claims will stay pending the outcome of any individual claims inarbitration. Further, if any part of this Section 11 is found to prohibit an individual claim
-seeking public injunctive relief, that provision will have no effect to the extent such relief is
-allowed to be sought out of arbitration, and the remainder of this Section 11 will be
-enforceable.
+Leverage magnifies gains and losses. Perpetual trading fees are based on the notional value traded. Funding is a separate payment between long and short positions held at a funding settlement time. The rate and direction of payment can change. Funding can reduce your available margin even if the market price moves very little. Before opening a position, check the applicable trading fee, funding rate and settlement schedule.
 
-Please read the following section carefully because it requires you to arbitrate certain
-disputes and claims with UXUY and limits the manner in which you can seek relief from us.
+### Margin and liquidation
 
+Your position is subject to the margin rules, leverage limits and position limits of the relevant market. If several positions share collateral, a loss on one can reduce the margin available for the others. Where margin is isolated, the funds allocated to that position, including any additional margin, are at risk. If your margin falls below the maintenance requirement, the position may be liquidated without further approval. ULP and liquidators take over the liquidated position. The insurance fund covers any remaining shortfall to the extent funds are available. If the fund is insufficient, the protocol may automatically reduce opposing positions according to its risk ranking.
 
-You and UXUY agree that any dispute arising out of or related to these Terms or our Services is personal to you and UXUY and that any such dispute shall be finally resolved by binding arbitration administered by the Hong Kong International Arbitration Centre (HKIAC) under the HKIAC Administered Arbitration Rules in force when the Notice of Arbitration is submitted. The seat of arbitration shall be Hong Kong. The arbitration shall be conducted in English. The governing law of the arbitration shall be the laws of the Cayman Islands.
+### Providing liquidity
 
-Any claim arising out of or related to these Terms or our Services must be filed within one year after such claim arose; otherwise, the claim is permanently barred.
+When you provide liquidity to ULP, your deposit is exposed to the pool's market-making and hedging gains and losses. ULP acts as a counterparty to trades, so its economic interests may conflict with those of traders. Under the pool rules, spreads, funding receipts and liquidation proceeds contribute to returns, and a performance fee applies to market-making returns. Net gains by traders or hedging losses may reduce the pool's value and the amount you can withdraw. Historical or estimated returns do not guarantee future returns or repayment. You may lose your entire deposit. The amount and timing of a withdrawal depend on pool performance, available liquidity and the applicable pool rules.
 
-## 14. GOVERNING LAW
+Before trading, review the market settings and the perpetual contract rules. Before providing liquidity, review the applicable pool terms, fees and withdrawal conditions.
 
-These Terms shall be governed by and construed in accordance with the laws of the Cayman Islands, without regard to its conflict of law principles. You agree that we may initiate a proceeding related to the enforcement or validity of our intellectual property rights in any court having jurisdiction. With respect to any other proceeding that is not subject to arbitration under these Terms, the courts located in Hong Kong shall have exclusive jurisdiction. You waive any objection to venue in any such courts.
+## 10. Market content and copy trading
 
+Viewing market commentary or trading signals does not authorize a trade. Where copy trading is available and you enable it, your settings may authorize positions to be opened or closed without a separate confirmation for each trade. Review your allocation, leverage and permissions. Stopping future copying does not necessarily close existing positions or cancel orders already submitted.
 
-## 15. MISCELLANEOUS
+A copied order may execute late, at another price, for another size or not at all. Differences in margin or liquidity can cause your position to be liquidated even if the trader you follow remains open. Past performance, trading signals and market commentary are not promises of future results. You remain responsible for your trading decisions.
 
-Any right or remedy of UXUY set forth in these Terms is in addition to, and not in lieu of, any other right or remedy whether described in these Terms, under Applicable Law, at law or in equity. Our failure or delay in exercising any right, power, or privilege under these Terms will not operate as a waiver thereof. The invalidity or unenforceability of any of these  Terms will not affect the validity or enforceability of any other of these Terms, all of which will remain in full force and effect. We will have no responsibility or liability for any failure or delay in performance of the Site or any of the Services, or any loss or damage that you may incur, due to any circumstance or event beyond our control, including without limitation any flood, extraordinary weather conditions, earthquake, or other act of God, fire, war, insurrection, riot, labor dispute, accident, action of government, communications, power failure, or equipment or software malfunction. You may not assign or transfer any right to use the Site or the Services, or any of your rights or obligations under these Terms, without our express prior written consent, including by operation of law or in connection with any change of control. We may assign or transfer any or all of our rights or obligations under these Terms, in whole or in part, without notice or obtaining your consent or approval. Headings of sections are for convenience only and will not be used to limit or construe such sections. These Terms contain the entire agreement and supersede all prior and contemporaneous understandings between the parties regarding the Site and the Services. If there is a conflict between these Terms and any other agreement you may have with us, these Terms will control unless the other agreement specifically identifies these Terms and declares that the other agreement supersedes these Terms.
+If you ask us to help resolve a dispute with another user, we may offer mediation and determine the outcome for Platform purposes. You retain the right to seek a remedy in the applicable court or arbitration forum. We may disclose relevant records as permitted by Applicable Law and described in our Privacy Policy.
+
+## 11. Limit on aggregate liability
+
+To the extent permitted by Applicable Law, the maximum total liability of all Protected Parties for claims relating to the Platform or Services is the total fees you paid to UXUY under these Terms in the twelve months immediately before the event giving rise to the claim. This cap and Section 8 do not limit any liability that Applicable Law prohibits us from excluding or limiting.
+
+## 12. Release
+
+To the extent permitted by Applicable Law, you release the Protected Parties from claims arising from your dealings with other users or independent third-party services accessed through the Platform, including claims you do not yet know about. This release does not waive rights that Applicable Law protects or excuse UXUY from responsibility for its own obligations under these Terms.
+
+## 13. Disputes and arbitration
+
+### Notice of dispute
+
+Before bringing a claim, send written notice describing the issue, your contact details and the remedy you seek. Send notices to UXUY at legal@uxuy.com. We will send our notice to the contact address available to us. Allow 30 days after receipt for an informal resolution. Either party may file in time to preserve a claim or seek urgent interim relief without waiting.
+
+### Individual arbitration
+
+Subject to the exceptions below, either party may refer an unresolved dispute concerning the Services or these Terms, including their existence, validity or termination, to the Hong Kong International Arbitration Centre (HKIAC) for final arbitration. The HKIAC Administered Arbitration Rules in effect when arbitration begins will apply. The seat is Hong Kong. One arbitrator will hear the case in English. Cayman Islands law governs the arbitration agreement.
+
+Arbitration proceeds on an individual basis, subject to mandatory law. Each party must keep the proceedings and award confidential except as reasonably necessary to conduct the case, obtain legal advice, comply with law or seek court relief or enforcement. For arbitration you initiate, you pay the filing fee and UXUY pays the remaining institutional and tribunal fees. If UXUY initiates, it pays those fees, subject to any mandatory fee protections.
+
+### Opt-out and court remedies
+
+You may opt out of arbitration by emailing legal@uxuy.com within 30 days of first accepting the arbitration provision, stating your full name, address and decision to opt out. Either party may bring a qualifying individual small claim in the appropriate local small-claims court or seek interim or intellectual-property relief from a competent court. Any other claim outside arbitration is governed by Section 14.
+
+Where law permits, a claim must be brought within one year after it arises. This time limit and the dispute provisions do not displace mandatory rights to bring a claim in another forum or within a longer period.
+
+## 14. Governing law and courts
+
+Cayman Islands law governs these Terms, subject to mandatory protections under Applicable Law. For disputes outside arbitration, the Hong Kong courts have exclusive jurisdiction except for the remedies and forums preserved by Section 13. Either party may seek recognition or enforcement of an award in a court with jurisdiction.
+
+## 15. General provisions
+
+These Terms and any product-specific terms expressly incorporated into them form the agreement for the Services. A separate agreement with UXUY takes priority only if it expressly overrides these Terms. An issuer's documents govern rights against that issuer. A delay in enforcing a right does not waive it. If a provision is unenforceable, the others continue to apply. Remedies are cumulative. UXUY is excused from performance to the extent prevented by events beyond its reasonable control. You need our written consent to transfer this agreement. We may assign it subject to Applicable Law.
